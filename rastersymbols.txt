@@ -1,71 +1,71 @@
 BOYLAT25 (wrong symbol in svg_symbols_01)
-BOYINL01
-BOYINL02
-BOYINL03
-BOYINL08
+BOYINL01 (missing in rastersymbols-day.png and chartsymbols.xml)
+BOYINL02 (missing in rastersymbols-day.png and chartsymbols.xml)
+BOYINL03 (missing in rastersymbols-day.png and chartsymbols.xml)
+BOYINL08 (missing in rastersymbols-day.png and chartsymbols.xml)
 BUNSTA04 (missing symbol in svg_symbols_01)
 CATHAF01 (there is no ECDIS symbol named this way, see TERMNL13)
 CATHAF02 (there is no ECDIS symbol named this way, see TERMNL03)
 CATHAF03 (there is no ECDIS symbol named this way, see TERMNL04)
 DISMAR06 (obsolete, Presentation Library 2.1)
-LIFEBUOY01
-NMKIN101
-NMKIN102
-NMKINF06A
-NMKINF06B
+LIFEBUOY01 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKIN101 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKIN102 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKINF06A (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKINF06B (missing in rastersymbols-day.png and chartsymbols.xml)
 NMKINF34 (wrong symbol in sprite)
 NMKINF38 (wrong symbol in sprite)
 NMKINF45 (wrong symbol in sprite)
 NMKINF45 (wrong symbol in svg_symbols_01)
 NMKINF47 (wrong symbol in sprite)
-NMKINF47A
-NMKINF56
-NMKINF57
-NMKINF58
-NMKINF59
-NMKINF60
-NMKINFE24
-NMKINFE26
-NMKPR101
-NMKPR102
-NMKPR103
-NMKPR104
-NMKPR105
-NMKPRH02A
+NMKINF47A (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKINF56 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKINF57 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKINF58 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKINF59 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKINF60 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKINFE24 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKINFE26 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKPR101 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKPR102 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKPR103 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKPR104 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKPR105 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKPRH02A (missing in rastersymbols-day.png and chartsymbols.xml)
 NMKPRH01 (not in inlandECDIS)
-NMKPRH03
-NMKPRH06A
-NMKPRH07A
+NMKPRH03 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKPRH06A (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKPRH07A (missing in rastersymbols-day.png and chartsymbols.xml)
 NMKPRH08 (wrong symbol in svg_symbols_01)
-NMKPRH09
+NMKPRH09 (missing in rastersymbols-day.png and chartsymbols.xml)
 NMKPRH18 (wrong symbol in sprite)
 NMKPRH19 (wrong symbol in svg_symbols_01)
-NMKPRHA20
-NMKRCD07
-NMKRCD08
-NMKRE101
-NMKRE102
-NMKRE103
-NMKREG15A
+NMKPRHA20 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKRCD07 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKRCD08 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKRE101 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKRE102 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKRE103 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKREG15A (missing in rastersymbols-day.png and chartsymbols.xml)
 NMKREG19 (wrong symbol in sprite)
 NMKREG20 (wrong symbol in sprite)
-NMKREG21
-NMKREG21A
-NMKREG22
-NMKREG22A
-NMKREG23
-NMKREG24
-NMKREG50
-NMKREG51
-NOTMRK04
-NOTMRK05
-NOTMRK06
+NMKREG21 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKREG21A (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKREG22 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKREG22A (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKREG23 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKREG24 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKREG50 (missing in rastersymbols-day.png and chartsymbols.xml)
+NMKREG51 (missing in rastersymbols-day.png and chartsymbols.xml)
+NOTMRK04 (missing in rastersymbols-day.png and chartsymbols.xml)
+NOTMRK05 (missing in rastersymbols-day.png and chartsymbols.xml)
+NOTMRK06 (missing in rastersymbols-day.png and chartsymbols.xml)
 PIER0001 (Shoreline Construction, not in inlandECDIS)
 RADHLT01 (obsolete, Presentation Library 2.1)
 SSLOCK01 (wrong symbol in svg_symbols_01)
 TOPMA117 (wrong symbol in svg_symbols_01)
-TOPMAB3L
-TOPMAB3R
+TOPMAB3L (missing in rastersymbols-day.png and chartsymbols.xml)
+TOPMAB3R (missing in rastersymbols-day.png and chartsymbols.xml)
 VEHTRF01 (uncorrect named CARTRF01 in rastersymbols.xml)
 VTCLMK01 (missing symbol in svg_symbols_01)
 WTLVGG01 (obsolete, Presentation Library 2.1)
