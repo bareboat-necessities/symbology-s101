@@ -6,5 +6,5 @@ this is dedicated to inlandECDIS: openCPN's sprite (rastersymbols-day.png) and l
 
 `rastersymbols.svg` is derived from resources/openCPN_ECDIS/rastersymbols-day.png and chartsymbols-release.xml. File does have 3 layers
 * 'original' (bitmap sprite)
-* 'outline-vector' (names and bounding boxes)
+* 'outline-vector' (names and bounding-boxes)
 * 'symbols-vector' (annotations and svg-symbols)
