@@ -1,0 +1,3074 @@
+<!-- derived from pienc24t.dic start -->
+		<lookup id="6" RCID="25006" name="######">
+			<type>Point</type>
+			<instruction>SY(QUESMRK1)</instruction>
+			<disp-prio>Line Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>21010</comment>
+		</lookup>
+		<lookup id="7" RCID="25007" name="achare">
+			<type>Point</type>
+			<instruction>SY(ACHARE02)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>26220</comment>
+		</lookup>
+		<lookup id="8" RCID="25008" name="achbrt">
+			<type>Point</type>
+			<instruction>SY(ACHBRT07);TE('Nr %s','OBJNAM',3,1,2,'15110',1,0,CHBLK,29)</instruction>
+			<disp-prio>Line Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>26220</comment>
+		</lookup>
+		<lookup id="9" RCID="25009" name="AIRARE">
+			<type>Point</type>
+			<instruction>SY(AIRARE02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32240</comment>
+		</lookup>
+		<lookup id="10" RCID="25010" name="BCNISD">
+			<type>Point</type>
+			<instruction>SY(BCNGEN03);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="11" RCID="25011" name="BCNISD">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP1</attrib-code>
+			<instruction>SY(BCNSTK02);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="12" RCID="25012" name="BCNISD">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP3</attrib-code>
+			<instruction>SY(BCNTOW01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="13" RCID="25013" name="BCNISD">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP4</attrib-code>
+			<instruction>SY(BCNLTC01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="14" RCID="25014" name="BCNISD">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP5</attrib-code>
+			<instruction>SY(BCNGEN01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="15" RCID="25015" name="BCNISD">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP7</attrib-code>
+			<instruction>SY(BCNGEN01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="16" RCID="25016" name="bcnlat">
+			<type>Point</type>
+			<instruction>SY(BCNGEN03);TX(OBJNAM,2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="17" RCID="25017" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP1</attrib-code>
+			<instruction>SY(BCNSTK03);TX(OBJNAM,2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="18" RCID="25018" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP5</attrib-code>
+			<instruction>SY(BCNGEN01);TX(OBJNAM,2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="19" RCID="25019" name="BCNLAT">
+			<type>Point</type>
+			<instruction>SY(BCNGEN03);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="20" RCID="25020" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP2</attrib-code>
+			<attrib-code index="1">CATLAM1</attrib-code>
+			<instruction>SY(PRICKE03);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="21" RCID="25021" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP2</attrib-code>
+			<attrib-code index="1">CATLAM2</attrib-code>
+			<instruction>SY(PRICKE04);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="22" RCID="25022" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP6</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(CAIRNS11);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="23" RCID="25023" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP1</attrib-code>
+			<instruction>SY(BCNSTK02);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="24" RCID="25024" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP3</attrib-code>
+			<instruction>SY(BCNTOW01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="25" RCID="25025" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP4</attrib-code>
+			<instruction>SY(BCNLTC01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="26" RCID="25026" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP5</attrib-code>
+			<instruction>SY(BCNGEN01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="27" RCID="25027" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP6</attrib-code>
+			<instruction>SY(CAIRNS01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="28" RCID="25028" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP7</attrib-code>
+			<instruction>SY(BCNGEN01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="29" RCID="25029" name="BCNSAW">
+			<type>Point</type>
+			<instruction>SY(BCNGEN03);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="30" RCID="25030" name="BCNSAW">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP1</attrib-code>
+			<instruction>SY(BCNSTK02);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="31" RCID="25031" name="BCNSAW">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP3</attrib-code>
+			<instruction>SY(BCNTOW01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="32" RCID="25032" name="BCNSAW">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP4</attrib-code>
+			<instruction>SY(BCNLTC01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="33" RCID="25033" name="BCNSAW">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP5</attrib-code>
+			<instruction>SY(BCNGEN01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="34" RCID="25034" name="BCNSAW">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP7</attrib-code>
+			<instruction>SY(BCNGEN01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="35" RCID="25035" name="BCNSPP">
+			<type>Point</type>
+			<instruction>SY(BCNGEN03);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="36" RCID="25036" name="BCNSPP">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP6</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(CAIRNS11);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="37" RCID="25037" name="BCNSPP">
+			<type>Point</type>
+			<attrib-code index="0">CATSPM18</attrib-code>
+			<instruction>SY(NOTBRD11);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="38" RCID="25038" name="BCNSPP">
+			<type>Point</type>
+			<attrib-code index="0">CATSPM44</attrib-code>
+			<instruction>SY(BCNGEN01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="39" RCID="25039" name="BCNSPP">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP1</attrib-code>
+			<instruction>SY(BCNSTK02);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="40" RCID="25040" name="BCNSPP">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP3</attrib-code>
+			<instruction>SY(BCNTOW01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="41" RCID="25041" name="BCNSPP">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP4</attrib-code>
+			<instruction>SY(BCNLTC01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="42" RCID="25042" name="BCNSPP">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP5</attrib-code>
+			<instruction>SY(BCNGEN01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="43" RCID="25043" name="BCNSPP">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP6</attrib-code>
+			<instruction>SY(CAIRNS01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="44" RCID="25044" name="BCNSPP">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP7</attrib-code>
+			<instruction>SY(BCNGEN01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-2,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="45" RCID="25045" name="berths">
+			<type>Point</type>
+			<instruction>SY(BRTHNO01);TX(OBJNAM,3,1,2,'15110',1,0,CHBLK,29)</instruction>
+			<disp-prio>Line Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32440</comment>
+		</lookup>
+		<lookup id="46" RCID="25046" name="BOYCAR">
+			<type>Point</type>
+			<instruction>SY(BOYGEN03);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="47" RCID="25047" name="BOYCAR">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP1</attrib-code>
+			<instruction>SY(BOYCON01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="48" RCID="25048" name="BOYCAR">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP2</attrib-code>
+			<instruction>SY(BOYCAN01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="49" RCID="25049" name="BOYCAR">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP3</attrib-code>
+			<instruction>SY(BOYSPH01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="50" RCID="25050" name="BOYCAR">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP4</attrib-code>
+			<instruction>SY(BOYPIL01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="51" RCID="25051" name="BOYCAR">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP5</attrib-code>
+			<instruction>SY(BOYSPR01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="52" RCID="25052" name="BOYCAR">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP6</attrib-code>
+			<instruction>SY(BOYBAR01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="53" RCID="25053" name="BOYCAR">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP7</attrib-code>
+			<instruction>SY(BOYSUP01);TE('by %s','OBJNAM',2,1,2,'15110',-2,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="54" RCID="25054" name="BOYCAR">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP8</attrib-code>
+			<instruction>SY(BOYSPR01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="55" RCID="25055" name="BOYINB">
+			<type>Point</type>
+			<instruction>SY(BOYINB01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="56" RCID="25056" name="BOYISD">
+			<type>Point</type>
+			<instruction>SY(BOYGEN03);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="57" RCID="25057" name="BOYISD">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP1</attrib-code>
+			<instruction>SY(BOYCON01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="58" RCID="25058" name="BOYISD">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP2</attrib-code>
+			<instruction>SY(BOYCAN01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="59" RCID="25059" name="BOYISD">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP3</attrib-code>
+			<instruction>SY(BOYSPH01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="60" RCID="25060" name="BOYISD">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP4</attrib-code>
+			<instruction>SY(BOYPIL01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="61" RCID="25061" name="BOYISD">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP5</attrib-code>
+			<instruction>SY(BOYSPR01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="62" RCID="25062" name="BOYISD">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP6</attrib-code>
+			<instruction>SY(BOYBAR01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="63" RCID="25063" name="BOYISD">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP7</attrib-code>
+			<instruction>SY(BOYSUP01);TE('by %s','OBJNAM',2,1,2,'15110',-2,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="64" RCID="25064" name="BOYISD">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP8</attrib-code>
+			<instruction>SY(BOYSPR01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="65" RCID="25065" name="boylat">
+			<type>Point</type>
+			<instruction>SY(BOYGEN03);TX(OBJNAM,2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="66" RCID="25066" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">marsys11</attrib-code>
+			<attrib-code index="1">catlam3</attrib-code>
+			<instruction>SY(BOYINL03);TX(OBJNAM,2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="67" RCID="25067" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">marsys11</attrib-code>
+			<attrib-code index="1">catlam4</attrib-code>
+			<instruction>SY(BOYINL03);TX(OBJNAM,2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="68" RCID="25068" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">marsys11</attrib-code>
+			<attrib-code index="1">catlam7</attrib-code>
+			<instruction>SY(BOYINL01);TX(OBJNAM,2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="69" RCID="25069" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">marsys11</attrib-code>
+			<attrib-code index="1">catlam8</attrib-code>
+			<instruction>SY(BOYINL02);TX(OBJNAM,2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="70" RCID="25070" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">marsys11</attrib-code>
+			<attrib-code index="1">catlam10</attrib-code>
+			<instruction>SY(BOYINL03);TX(OBJNAM,2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="71" RCID="25071" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">marsys11</attrib-code>
+			<attrib-code index="1">catlam15</attrib-code>
+			<instruction>SY(BOYLAT26);TX(OBJNAM,2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="72" RCID="25072" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">marsys11</attrib-code>
+			<attrib-code index="1">catlam16</attrib-code>
+			<instruction>SY(BOYLAT27);TX(OBJNAM,2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="73" RCID="25073" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">marsys11</attrib-code>
+			<attrib-code index="1">catlam23</attrib-code>
+			<instruction>SY(BOYINL08);TX(OBJNAM,2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="74" RCID="25074" name="BOYLAT">
+			<type>Point</type>
+			<instruction>SY(BOYGEN03);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="75" RCID="25075" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP1</attrib-code>
+			<instruction>SY(BOYCON01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="76" RCID="25076" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP2</attrib-code>
+			<instruction>SY(BOYCAN01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="77" RCID="25077" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP3</attrib-code>
+			<instruction>SY(BOYSPH01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="78" RCID="25078" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP4</attrib-code>
+			<instruction>SY(BOYPIL01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="79" RCID="25079" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP5</attrib-code>
+			<instruction>SY(BOYSPR01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="80" RCID="25080" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP6</attrib-code>
+			<instruction>SY(BOYBAR01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="81" RCID="25081" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP7</attrib-code>
+			<instruction>SY(BOYSUP01);TE('by %s','OBJNAM',2,1,2,'15110',-2,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="82" RCID="25082" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP8</attrib-code>
+			<instruction>SY(BOYSPR01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="83" RCID="25083" name="BOYSAW">
+			<type>Point</type>
+			<instruction>SY(BOYGEN03);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="84" RCID="25084" name="BOYSAW">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP3</attrib-code>
+			<instruction>SY(BOYSPH01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="85" RCID="25085" name="BOYSAW">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP4</attrib-code>
+			<instruction>SY(BOYPIL01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="86" RCID="25086" name="BOYSAW">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP5</attrib-code>
+			<instruction>SY(BOYSPR01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="87" RCID="25087" name="BOYSAW">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP6</attrib-code>
+			<instruction>SY(BOYBAR01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="88" RCID="25088" name="BOYSAW">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP7</attrib-code>
+			<instruction>SY(BOYSUP01);TE('by %s','OBJNAM',2,1,2,'15110',-2,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="89" RCID="25089" name="BOYSAW">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP8</attrib-code>
+			<instruction>SY(BOYSPR01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="90" RCID="25090" name="BOYSPP">
+			<type>Point</type>
+			<instruction>SY(BOYGEN03);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="91" RCID="25091" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">CATSPM9</attrib-code>
+			<instruction>SY(BOYSUP01);TE('by %s','OBJNAM',2,1,2,'15110',-2,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="92" RCID="25092" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">CATSPM15</attrib-code>
+			<instruction>SY(BOYSUP03);TE('by %s','OBJNAM',2,1,2,'15110',-2,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="93" RCID="25093" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP1</attrib-code>
+			<instruction>SY(BOYCON01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="94" RCID="25094" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP2</attrib-code>
+			<instruction>SY(BOYCAN01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="95" RCID="25095" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP3</attrib-code>
+			<instruction>SY(BOYSPH01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="96" RCID="25096" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP4</attrib-code>
+			<instruction>SY(BOYPIL01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="97" RCID="25097" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP5</attrib-code>
+			<instruction>SY(BOYSPR01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="98" RCID="25098" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP6</attrib-code>
+			<instruction>SY(BOYBAR01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="99" RCID="25099" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP7</attrib-code>
+			<instruction>SY(BOYSUP01);TE('by %s','OBJNAM',2,1,2,'15110',-2,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="100" RCID="25100" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP8</attrib-code>
+			<instruction>SY(BOYSPR01);TE('by %s','OBJNAM',2,1,2,'15110',-2,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="101" RCID="25101" name="BUAARE">
+			<type>Point</type>
+			<instruction>SY(BUAARE02);TX(OBJNAM,3,2,2,'15110',1,0,CHBLK,26)</instruction>
+			<disp-prio>Area 2</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22240</comment>
+		</lookup>
+		<lookup id="102" RCID="25102" name="BUISGL">
+			<type>Point</type>
+			<instruction>SY(BUISGL01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="103" RCID="25103" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN33</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<attrib-code index="2">OBJNAM</attrib-code>
+			<instruction>SY(POSGEN03);TX(OBJNAM,3,2,2,'15110',1,0,CHBLK,26)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="104" RCID="25104" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN20</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="105" RCID="25105" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN21</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="106" RCID="25106" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN22</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL14)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="107" RCID="25107" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN23</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL14)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="108" RCID="25108" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN24</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL14)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="109" RCID="25109" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN25</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL14)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="110" RCID="25110" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN26</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL15)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="111" RCID="25111" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN27</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL15)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="112" RCID="25112" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN33</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(POSGEN03)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="113" RCID="25113" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN35</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(TNKCON12)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="114" RCID="25114" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN33</attrib-code>
+			<attrib-code index="1">OBJNAM</attrib-code>
+			<instruction>SY(POSGEN03);TX(OBJNAM,3,2,2,'15110',1,0,CHBLK,26)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="115" RCID="25115" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">CONVIS1</attrib-code>
+			<instruction>SY(BUISGL11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="116" RCID="25116" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN2</attrib-code>
+			<instruction>SY(HRBFAC13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="117" RCID="25117" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN3</attrib-code>
+			<instruction>SY(HRBFAC16)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="118" RCID="25118" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN4</attrib-code>
+			<instruction>SY(HRBFAC18)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="119" RCID="25119" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN5</attrib-code>
+			<instruction>SY(HRBFAC18)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="120" RCID="25120" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN10</attrib-code>
+			<instruction>SY(HRBFAC15)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="121" RCID="25121" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN11</attrib-code>
+			<instruction>SY(HRBFAC14)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="122" RCID="25122" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN20</attrib-code>
+			<instruction>SY(BUIREL01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="123" RCID="25123" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN21</attrib-code>
+			<instruction>SY(BUIREL01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="124" RCID="25124" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN22</attrib-code>
+			<instruction>SY(BUIREL04)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="125" RCID="25125" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN23</attrib-code>
+			<instruction>SY(BUIREL04)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="126" RCID="25126" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN24</attrib-code>
+			<instruction>SY(BUIREL04)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="127" RCID="25127" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN25</attrib-code>
+			<instruction>SY(BUIREL04)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="128" RCID="25128" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN26</attrib-code>
+			<instruction>SY(BUIREL05)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="129" RCID="25129" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN27</attrib-code>
+			<instruction>SY(BUIREL05)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="130" RCID="25130" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN33</attrib-code>
+			<instruction>SY(POSGEN03)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="131" RCID="25131" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN35</attrib-code>
+			<instruction>SY(TNKCON02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="132" RCID="25132" name="bunsta">
+			<type>Point</type>
+			<instruction>SY(CHINFO07)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="133" RCID="25133" name="bunsta">
+			<type>Point</type>
+			<attrib-code index="0">catbun1</attrib-code>
+			<instruction>SY(BUNSTA01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="134" RCID="25134" name="bunsta">
+			<type>Point</type>
+			<attrib-code index="0">catbun2</attrib-code>
+			<instruction>SY(BUNSTA02)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="135" RCID="25135" name="bunsta">
+			<type>Point</type>
+			<attrib-code index="0">catbun3</attrib-code>
+			<instruction>SY(BUNSTA03)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="136" RCID="25136" name="chkpnt">
+			<type>Point</type>
+			<instruction>SY(POSGEN04)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32410</comment>
+		</lookup>
+		<lookup id="137" RCID="25137" name="chkpnt">
+			<type>Point</type>
+			<attrib-code index="0">catchp1</attrib-code>
+			<instruction>SY(CUSTOM01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32410</comment>
+		</lookup>
+		<lookup id="138" RCID="25138" name="chkpnt">
+			<type>Point</type>
+			<attrib-code index="0">catchp2</attrib-code>
+			<instruction>SY(BORDER01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32410</comment>
+		</lookup>
+		<lookup id="139" RCID="25139" name="cranes">
+			<type>Point</type>
+			<instruction>SY(CRANES01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32440</comment>
+		</lookup>
+		<lookup id="140" RCID="25140" name="CRANES">
+			<type>Point</type>
+			<instruction>SY(CRANES01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32440</comment>
+		</lookup>
+		<lookup id="141" RCID="25141" name="CTNARE">
+			<type>Point</type>
+			<instruction>SY(CHINFO06)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>26050</comment>
+		</lookup>
+		<lookup id="142" RCID="25142" name="curent">
+			<type>Point</type>
+			<instruction>SY(POSGEN04)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>33060</comment>
+		</lookup>
+		<lookup id="143" RCID="25143" name="curent">
+			<type>Point</type>
+			<attrib-code index="0">ORIENT</attrib-code>
+			<instruction>SY(CURENT01,ORIENT)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>33060</comment>
+		</lookup>
+		<lookup id="144" RCID="25144" name="daymar">
+			<type>Point</type>
+			<instruction>CS(TOPMARI1)</instruction>
+			<disp-prio></disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27050</comment>
+		</lookup>
+		<lookup id="145" RCID="25145" name="DAYMAR">
+			<type>Point</type>
+			<instruction>CS(TOPMARI1)</instruction>
+			<disp-prio></disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27050</comment>
+		</lookup>
+		<lookup id="146" RCID="25146" name="dismar">
+			<type>Point</type>
+			<instruction>SY(DISMAR05);TX(wtwdis,3,1,2,'14106',1,-1,CHBLK,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32430</comment>
+		</lookup>
+		<lookup id="147" RCID="25147" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS3</attrib-code>
+			<attrib-code index="1">hunits3</attrib-code>
+			<instruction>SY(HECMTR02);TX(wtwdis,3,1,2,'14106',1,0,CHMGD,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="148" RCID="25148" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS3</attrib-code>
+			<attrib-code index="1">hunits4</attrib-code>
+			<instruction>SY(HECMTR01);TX(wtwdis,3,1,2,'14106',1,0,CHMGD,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="149" RCID="25149" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS1</attrib-code>
+			<attrib-code index="1">hunits3</attrib-code>
+			<instruction>SY(DISMAR05);TX(wtwdis,3,1,2,'14106',1,-1,CHBLK,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32420</comment>
+		</lookup>
+		<lookup id="150" RCID="25150" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS1</attrib-code>
+			<attrib-code index="1">hunits4</attrib-code>
+			<instruction>SY(DISMAR05)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32420</comment>
+		</lookup>
+		<lookup id="151" RCID="25151" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS1</attrib-code>
+			<attrib-code index="1">hunits5</attrib-code>
+			<instruction>SY(DISMAR05);TE('%.f sm','wtwdis',3,2,2,'14109',1,0,CHBLK,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="152" RCID="25152" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS1</attrib-code>
+			<attrib-code index="1">hunits6</attrib-code>
+			<instruction>SY(DISMAR05);TE('%.f nm','wtwdis',3,2,2,'14109',1,0,CHBLK,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="153" RCID="25153" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS2</attrib-code>
+			<attrib-code index="1">hunits3</attrib-code>
+			<instruction>SY(HECMTR02);TX(wtwdis,3,1,2,'14106',1,0,CHMGD,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="154" RCID="25154" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS2</attrib-code>
+			<attrib-code index="1">hunits4</attrib-code>
+			<instruction>SY(HECMTR01);TX(wtwdis,3,1,2,'14106',1,0,CHMGD,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="155" RCID="25155" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS4</attrib-code>
+			<attrib-code index="1">hunits3</attrib-code>
+			<instruction>SY(HECMTR02);TX(wtwdis,3,1,2,'14106',1,0,CHMGD,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="156" RCID="25156" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS4</attrib-code>
+			<attrib-code index="1">hunits4</attrib-code>
+			<instruction>SY(HECMTR01);TX(wtwdis,3,1,2,'14106',1,0,CHMGD,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="157" RCID="25157" name="excnst">
+			<type>Point</type>
+			<instruction>SY(BRIDGE01)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12210</comment>
+		</lookup>
+		<lookup id="158" RCID="25158" name="FOGSIG">
+			<type>Point</type>
+			<instruction>SY(FOGSIG01)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27080</comment>
+		</lookup>
+		<lookup id="159" RCID="25159" name="hrbfac">
+			<type>Point</type>
+			<instruction>SY(HRBFAC10)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="160" RCID="25160" name="hrbfac">
+			<type>Point</type>
+			<attrib-code index="0">cathaf6</attrib-code>
+			<instruction>SY(HRBFAC11)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="161" RCID="25161" name="hrbfac">
+			<type>Point</type>
+			<attrib-code index="0">cathaf9</attrib-code>
+			<instruction>SY(HRBFAC12)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="162" RCID="25162" name="hrbfac">
+			<type>Point</type>
+			<attrib-code index="0">cathaf14</attrib-code>
+			<instruction>SY(HRBFAC15)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="163" RCID="25163" name="hrbfac">
+			<type>Point</type>
+			<attrib-code index="0">cathaf15</attrib-code>
+			<instruction>SY(HRBFAC16)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="164" RCID="25164" name="hrbfac">
+			<type>Point</type>
+			<attrib-code index="0">cathaf16</attrib-code>
+			<instruction>SY(HRBFAC17)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="165" RCID="25165" name="hrbfac">
+			<type>Point</type>
+			<attrib-code index="0">cathaf17</attrib-code>
+			<instruction>SY(HRBFAC18)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="166" RCID="25166" name="HRBFAC">
+			<type>Point</type>
+			<instruction>SY(CHINFO07)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32410</comment>
+		</lookup>
+		<lookup id="167" RCID="25167" name="HRBFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATHAF1</attrib-code>
+			<instruction>SY(ROLROL01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32410</comment>
+		</lookup>
+		<lookup id="168" RCID="25168" name="HRBFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATHAF4</attrib-code>
+			<instruction>SY(HRBFAC09)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32410</comment>
+		</lookup>
+		<lookup id="169" RCID="25169" name="HRBFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATHAF5</attrib-code>
+			<instruction>SY(SMCFAC02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32410</comment>
+		</lookup>
+		<lookup id="170" RCID="25170" name="HULKES">
+			<type>Point</type>
+			<instruction>SY(HULKES01)</instruction>
+			<disp-prio>Line Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="171" RCID="25171" name="LIGHTS">
+			<type>Point</type>
+			<instruction>CS(LIGHTSI1)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27070</comment>
+		</lookup>
+		<lookup id="172" RCID="25172" name="LNDARE">
+			<type>Point</type>
+			<instruction>SY(LNDARE01);TX(OBJNAM,1,2,2,'15110',0,1,CHBLK,26);CS(QUAPOS01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12010</comment>
+		</lookup>
+		<lookup id="173" RCID="25173" name="LNDMRK">
+			<type>Point</type>
+			<instruction>SY(POSGEN01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="174" RCID="25174" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK17</attrib-code>
+			<attrib-code index="1">FUNCTN33</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(TOWERS03);TX(OBJNAM,3,2,2,'15110',1,-1,CHBLK,26)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="175" RCID="25175" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK15</attrib-code>
+			<attrib-code index="1">FUNCTN20</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="176" RCID="25176" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK15</attrib-code>
+			<attrib-code index="1">FUNCTN21</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="177" RCID="25177" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK17</attrib-code>
+			<attrib-code index="1">FUNCTN20</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="178" RCID="25178" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK17</attrib-code>
+			<attrib-code index="1">FUNCTN21</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="179" RCID="25179" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK20</attrib-code>
+			<attrib-code index="1">FUNCTN20</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="180" RCID="25180" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK20</attrib-code>
+			<attrib-code index="1">FUNCTN21</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="181" RCID="25181" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK20</attrib-code>
+			<attrib-code index="1">FUNCTN26</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL15)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="182" RCID="25182" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK20</attrib-code>
+			<attrib-code index="1">FUNCTN27</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL15)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="183" RCID="25183" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK17</attrib-code>
+			<attrib-code index="1">FUNCTN33</attrib-code>
+			<instruction>SY(TOWERS01);TX(OBJNAM,3,2,2,'15110',1,-1,CHBLK,26)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="184" RCID="25184" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK1</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(CAIRNS11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="185" RCID="25185" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK3</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(CHIMNY11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="186" RCID="25186" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK4</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(DSHAER11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="187" RCID="25187" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK5</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(FLGSTF01)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="188" RCID="25188" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK6</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(FLASTK11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="189" RCID="25189" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK7</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(MSTCON14)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="190" RCID="25190" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK8</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(POSGEN03)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="191" RCID="25191" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK9</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(MONUMT12)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="192" RCID="25192" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK10</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(MONUMT12)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="193" RCID="25193" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK12</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(MONUMT12)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="194" RCID="25194" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK13</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(MONUMT12)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="195" RCID="25195" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK15</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(DOMES011)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="196" RCID="25196" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK16</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(RASCAN11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="197" RCID="25197" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK17</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(TOWERS03)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="198" RCID="25198" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK18</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(WNDMIL12)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="199" RCID="25199" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK19</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(WIMCON11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="200" RCID="25200" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK20</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(POSGEN03)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="201" RCID="25201" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK20</attrib-code>
+			<attrib-code index="1">FUNCTN20</attrib-code>
+			<instruction>SY(BUIREL01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="202" RCID="25202" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK1</attrib-code>
+			<instruction>SY(CAIRNS01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="203" RCID="25203" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK3</attrib-code>
+			<instruction>SY(CHIMNY01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="204" RCID="25204" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK4</attrib-code>
+			<instruction>SY(DSHAER01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="205" RCID="25205" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK5</attrib-code>
+			<instruction>SY(FLGSTF01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="206" RCID="25206" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK6</attrib-code>
+			<instruction>SY(FLASTK01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="207" RCID="25207" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK7</attrib-code>
+			<instruction>SY(MSTCON04)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="208" RCID="25208" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK8</attrib-code>
+			<instruction>SY(POSGEN03)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="209" RCID="25209" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK9</attrib-code>
+			<instruction>SY(MONUMT02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="210" RCID="25210" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK10</attrib-code>
+			<instruction>SY(MONUMT02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="211" RCID="25211" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK12</attrib-code>
+			<instruction>SY(MONUMT02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="212" RCID="25212" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK13</attrib-code>
+			<instruction>SY(MONUMT02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="213" RCID="25213" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK15</attrib-code>
+			<instruction>SY(DOMES001)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="214" RCID="25214" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK16</attrib-code>
+			<instruction>SY(RASCAN01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="215" RCID="25215" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK17</attrib-code>
+			<instruction>SY(TOWERS01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="216" RCID="25216" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK18</attrib-code>
+			<instruction>SY(WNDMIL02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="217" RCID="25217" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK19</attrib-code>
+			<instruction>SY(WIMCON01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="218" RCID="25218" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK20</attrib-code>
+			<instruction>SY(POSGEN01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="219" RCID="25219" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CONVIS1</attrib-code>
+			<instruction>SY(POSGEN03)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="220" RCID="25220" name="LNDRGN">
+			<type>Point</type>
+			<instruction>SY(POSGEN04);TX(OBJNAM,1,2,2,'15110',0,-1,CHBLK,26)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>21060</comment>
+		</lookup>
+		<lookup id="221" RCID="25221" name="MARCUL">
+			<type>Point</type>
+			<instruction>SY(MARCUL02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>26210</comment>
+		</lookup>
+		<lookup id="222" RCID="25222" name="MORFAC">
+			<type>Point</type>
+			<instruction>SY(MORFAC03)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="223" RCID="25223" name="MORFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATMOR7</attrib-code>
+			<attrib-code index="1">BOYSHP3</attrib-code>
+			<instruction>SY(BOYMOR01)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="224" RCID="25224" name="MORFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATMOR7</attrib-code>
+			<attrib-code index="1">BOYSHP6</attrib-code>
+			<instruction>SY(BOYMOR03)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="225" RCID="25225" name="MORFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATMOR1</attrib-code>
+			<instruction>SY(MORFAC03)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="226" RCID="25226" name="MORFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATMOR2</attrib-code>
+			<instruction>SY(MORFAC04)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="227" RCID="25227" name="MORFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATMOR3</attrib-code>
+			<instruction>SY(PILPNT02)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32440</comment>
+		</lookup>
+		<lookup id="228" RCID="25228" name="MORFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATMOR5</attrib-code>
+			<instruction>SY(PILPNT02)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="229" RCID="25229" name="MORFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATMOR7</attrib-code>
+			<instruction>SY(BOYMOR11)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="230" RCID="25230" name="notmrk">
+			<type>Point</type>
+			<instruction>CS(NOTMRKI1)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="231" RCID="25231" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk1</attrib-code>
+			<instruction>SY(NMKPRH02,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="232" RCID="25232" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk12</attrib-code>
+			<instruction>SY(NMKPRH12,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="233" RCID="25233" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk13</attrib-code>
+			<instruction>SY(NMKPRH13,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="234" RCID="25234" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk44</attrib-code>
+			<instruction>SY(NMKRCD01,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="235" RCID="25235" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk45</attrib-code>
+			<instruction>SY(NMKRCD02,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="236" RCID="25236" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk46</attrib-code>
+			<instruction>SY(NMKRCD03,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="237" RCID="25237" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk47</attrib-code>
+			<instruction>SY(NMKRCD04,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="238" RCID="25238" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk50</attrib-code>
+			<instruction>SY(NMKINF01,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="239" RCID="25239" name="OBSTRN">
+			<type>Point</type>
+			<instruction>CS(OBSTRNI1)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="240" RCID="25240" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS7</attrib-code>
+			<attrib-code index="1">VALSOU</attrib-code>
+			<instruction>SY(FOULGND1)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34051</comment>
+		</lookup>
+		<lookup id="241" RCID="25241" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS8</attrib-code>
+			<attrib-code index="1">VALSOU</attrib-code>
+			<instruction>SY(FLTHAZ02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34051</comment>
+		</lookup>
+		<lookup id="242" RCID="25242" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS9</attrib-code>
+			<attrib-code index="1">VALSOU</attrib-code>
+			<instruction>SY(ACHARE02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34051</comment>
+		</lookup>
+		<lookup id="243" RCID="25243" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS10</attrib-code>
+			<attrib-code index="1">VALSOU</attrib-code>
+			<instruction>SY(FLTHAZ02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34051</comment>
+		</lookup>
+		<lookup id="244" RCID="25244" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS7</attrib-code>
+			<instruction>SY(FOULGND1)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="245" RCID="25245" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS8</attrib-code>
+			<instruction>SY(FLTHAZ02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="246" RCID="25246" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS9</attrib-code>
+			<instruction>SY(ACHARE02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="247" RCID="25247" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS10</attrib-code>
+			<instruction>SY(FLTHAZ02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="248" RCID="25248" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">WATLEV7</attrib-code>
+			<instruction>SY(FLTHAZ02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="249" RCID="25249" name="PILPNT">
+			<type>Point</type>
+			<instruction>SY(PILPNT02)</instruction>
+			<disp-prio>Line Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="250" RCID="25250" name="PIPSOL">
+			<type>Point</type>
+			<instruction>SY(POSGEN04)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34070</comment>
+		</lookup>
+		<lookup id="251" RCID="25251" name="PYLONS">
+			<type>Point</type>
+			<instruction>SY(POSGEN03)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12210</comment>
+		</lookup>
+		<lookup id="252" RCID="25252" name="RADSTA">
+			<type>Point</type>
+			<instruction>SY(POSGEN01)</instruction>
+			<disp-prio>Line Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>38010</comment>
+		</lookup>
+		<lookup id="253" RCID="25253" name="RADSTA">
+			<type>Point</type>
+			<attrib-code index="0">CATRAS2</attrib-code>
+			<instruction>SY(RDOSTA02);TE('ch %s','COMCHA',3,1,2,'15110',0,0,CHBLK,11)</instruction>
+			<disp-prio>Line Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>38010</comment>
+		</lookup>
+		<lookup id="254" RCID="25254" name="rdocal">
+			<type>Point</type>
+			<instruction>SY(RCLDEF01);TE('Nr %s','OBJNAM',3,2,2,'15110',1,-1,CHBLK,21)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>25060</comment>
+		</lookup>
+		<lookup id="255" RCID="25255" name="rdocal">
+			<type>Point</type>
+			<attrib-code index="0">TRAFIC1</attrib-code>
+			<attrib-code index="1">ORIENT</attrib-code>
+			<instruction>SY(RDOCAL02,ORIENT);TE('Nr %s','OBJNAM',3,1,2,'15110',1,-1,CHBLK,21);TE('ch %s','COMCHA',3,1,2,'15110',1,1,CHBLK,11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>25060</comment>
+		</lookup>
+		<lookup id="256" RCID="25256" name="rdocal">
+			<type>Point</type>
+			<attrib-code index="0">TRAFIC2</attrib-code>
+			<attrib-code index="1">ORIENT</attrib-code>
+			<instruction>SY(RDOCAL02,ORIENT);TE('Nr %s','OBJNAM',3,1,2,'15110',1,-1,CHBLK,21);TE('ch %s','COMCHA',3,1,2,'15110',1,1,CHBLK,11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>25060</comment>
+		</lookup>
+		<lookup id="257" RCID="25257" name="rdocal">
+			<type>Point</type>
+			<attrib-code index="0">TRAFIC3</attrib-code>
+			<attrib-code index="1">ORIENT</attrib-code>
+			<instruction>SY(RDOCAL02,ORIENT);TE('Nr %s','OBJNAM',3,1,2,'15110',1,-1,CHBLK,21);TE('ch %s','COMCHA',3,1,2,'15110',1,1,CHBLK,11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>25060</comment>
+		</lookup>
+		<lookup id="258" RCID="25258" name="rdocal">
+			<type>Point</type>
+			<attrib-code index="0">TRAFIC4</attrib-code>
+			<attrib-code index="1">ORIENT</attrib-code>
+			<instruction>SY(RDOCAL03,ORIENT);TE('Nr %s','OBJNAM',3,1,2,'15110',1,-1,CHBLK,21);TE('ch %s','COMCHA',3,1,2,'15110',1,1,CHBLK,11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>25060</comment>
+		</lookup>
+		<lookup id="259" RCID="25259" name="refdmp">
+			<type>Point</type>
+			<instruction>SY(REFDMP01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="260" RCID="25260" name="RSCSTA">
+			<type>Point</type>
+			<instruction>SY(RSCSTA02)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>38030</comment>
+		</lookup>
+		<lookup id="261" RCID="25261" name="RSCSTA">
+			<type>Point</type>
+			<attrib-code index="0">catrsc10</attrib-code>
+			<instruction>SY(LIFEBUOY)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>38030</comment>
+		</lookup>
+		<lookup id="262" RCID="25262" name="RTPBCN">
+			<type>Point</type>
+			<instruction>SY(RTPBCN02)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27210</comment>
+		</lookup>
+		<lookup id="263" RCID="25263" name="SEAARE">
+			<type>Point</type>
+			<instruction>TX(OBJNAM,1,2,3,'15110',0,0,CHBLK,26)</instruction>
+			<disp-prio>Area 2</disp-prio>
+			<radar-prio>Suppressed</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>21060</comment>
+		</lookup>
+		<lookup id="264" RCID="25264" name="SILTNK">
+			<type>Point</type>
+			<instruction>SY(TNKCON02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="265" RCID="25265" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL1</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(SILBUI11)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="266" RCID="25266" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL2</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(TNKCON12)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="267" RCID="25267" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL3</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(TOWERS03)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="268" RCID="25268" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL4</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(TOWERS12)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="269" RCID="25269" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CONVIS1</attrib-code>
+			<instruction>SY(TNKCON12)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="270" RCID="25270" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL1</attrib-code>
+			<instruction>SY(SILBUI01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="271" RCID="25271" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL2</attrib-code>
+			<instruction>SY(TNKCON02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="272" RCID="25272" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL3</attrib-code>
+			<instruction>SY(TOWERS01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="273" RCID="25273" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL4</attrib-code>
+			<instruction>SY(TOWERS02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="274" RCID="25274" name="sistat">
+			<type>Point</type>
+			<instruction>SY(SISTAT02)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="275" RCID="25275" name="sistat">
+			<type>Point</type>
+			<attrib-code index="0">catsit2</attrib-code>
+			<instruction>SY(SSENTR01)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="276" RCID="25276" name="sistat">
+			<type>Point</type>
+			<attrib-code index="0">catsit6</attrib-code>
+			<instruction>SY(SSLOCK01)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="277" RCID="25277" name="sistat">
+			<type>Point</type>
+			<attrib-code index="0">catsit10</attrib-code>
+			<instruction>SY(SSWARS01)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="278" RCID="25278" name="sistaw">
+			<type>Point</type>
+			<instruction>SY(SISTAT02)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="279" RCID="25279" name="sistaw">
+			<type>Point</type>
+			<attrib-code index="0">catsiw15</attrib-code>
+			<instruction>SY(HGWTMK01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="280" RCID="25280" name="sistaw">
+			<type>Point</type>
+			<attrib-code index="0">catsiw16</attrib-code>
+			<instruction>SY(VTCLMK01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="281" RCID="25281" name="sistaw">
+			<type>Point</type>
+			<attrib-code index="0">catsiw18</attrib-code>
+			<instruction>SY(WTLVGG02)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="282" RCID="25282" name="SLCONS">
+			<type>Point</type>
+			<instruction>SY(MORFAC03);CS(SLCONSI1)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="283" RCID="25283" name="SMCFAC">
+			<type>Point</type>
+			<instruction>SY(SMCFAC02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>Suppressed</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>38210</comment>
+		</lookup>
+		<lookup id="284" RCID="25284" name="SOUNDG">
+			<type>Point</type>
+			<instruction>CS(SOUNDG02)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>33010</comment>
+		</lookup>
+		<lookup id="285" RCID="25285" name="termnl">
+			<type>Point</type>
+			<instruction>SY(TERMNL12)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="286" RCID="25286" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd1</attrib-code>
+			<instruction>SY(TERMNL03)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="287" RCID="25287" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd2</attrib-code>
+			<instruction>SY(TERMNL04)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="288" RCID="25288" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd3</attrib-code>
+			<instruction>SY(TERMNL05)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="289" RCID="25289" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd4</attrib-code>
+			<instruction>SY(TERMNL06)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="290" RCID="25290" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd5</attrib-code>
+			<instruction>SY(TERMNL07)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="291" RCID="25291" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd6</attrib-code>
+			<instruction>SY(TERMNL08)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="292" RCID="25292" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd7</attrib-code>
+			<instruction>SY(TERMNL09)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="293" RCID="25293" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd8</attrib-code>
+			<instruction>SY(TERMNL10)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="294" RCID="25294" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd9</attrib-code>
+			<instruction>SY(TERMNL11)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="295" RCID="25295" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">cathaf1</attrib-code>
+			<instruction>SY(TERMNL13)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="296" RCID="25296" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">cathaf3</attrib-code>
+			<instruction>SY(TERMNL02)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="297" RCID="25297" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">cathaf7</attrib-code>
+			<instruction>SY(TERMNL05)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="298" RCID="25298" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">cathaf8</attrib-code>
+			<instruction>SY(TERMNL01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="299" RCID="25299" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">cathaf10</attrib-code>
+			<instruction>SY(TERMNL03)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="300" RCID="25300" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">cathaf11</attrib-code>
+			<instruction>SY(TERMNL04)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="301" RCID="25301" name="TOPMAR">
+			<type>Point</type>
+			<instruction>CS(TOPMARI1)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27050</comment>
+		</lookup>
+		<lookup id="302" RCID="25302" name="trnbsn">
+			<type>Point</type>
+			<instruction>SY(TRNBSN01)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>26020</comment>
+		</lookup>
+		<lookup id="303" RCID="25303" name="uwtroc">
+			<type>Point</type>
+			<instruction>CS(OBSTRNI1)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="304" RCID="25304" name="UWTROC">
+			<type>Point</type>
+			<instruction>CS(OBSTRNI1)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="305" RCID="25305" name="VEGATN">
+			<type>Point</type>
+			<instruction></instruction>
+			<disp-prio></disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat></display-cat>
+			<comment></comment>
+		</lookup>
+		<lookup id="306" RCID="25306" name="vehtrf">
+			<type>Point</type>
+			<instruction>SY(VEHTRF01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="307" RCID="25307" name="WRECKS">
+			<type>Point</type>
+			<instruction>CS(WRECKS04)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="308" RCID="25308" name="WRECKS">
+			<type>Point</type>
+			<attrib-code index="0">CATWRK3</attrib-code>
+			<attrib-code index="1">VALSOU</attrib-code>
+			<instruction>SY(FOULGND1)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34051</comment>
+		</lookup>
+		<lookup id="309" RCID="25309" name="WRECKS">
+			<type>Point</type>
+			<attrib-code index="0">CATWRK3</attrib-code>
+			<instruction>SY(FOULGND1)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="310" RCID="25310" name="wtwgag">
+			<type>Point</type>
+			<instruction>SY(WTLVGG02)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Paper</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+<!-- derived from pienc24t.dic end -->

@@ -1,0 +1,3414 @@
+<!-- derived from pienc24s.dic start -->
+		<lookup id="6" RCID="24006" name="######">
+			<type>Point</type>
+			<instruction>SY(QUESMRK1)</instruction>
+			<disp-prio>Line Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>21010</comment>
+		</lookup>
+		<lookup id="7" RCID="24007" name="achare">
+			<type>Point</type>
+			<instruction>SY(ACHARE02)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>26220</comment>
+		</lookup>
+		<lookup id="8" RCID="24008" name="achbrt">
+			<type>Point</type>
+			<instruction>SY(ACHBRT07);TE('Nr %s','OBJNAM',3,1,2,'15110',1,0,CHBLK,29)</instruction>
+			<disp-prio>Line Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>26220</comment>
+		</lookup>
+		<lookup id="9" RCID="24009" name="AIRARE">
+			<type>Point</type>
+			<instruction>SY(AIRARE02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32240</comment>
+		</lookup>
+		<lookup id="10" RCID="24010" name="BCNISD">
+			<type>Point</type>
+			<instruction>SY(BCNISD21);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="11" RCID="24011" name="bcnlat">
+			<type>Point</type>
+			<instruction>SY(BCNDEF13);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="12" RCID="24012" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3,4,3</attrib-code>
+			<attrib-code index="1">BCNSHP1</attrib-code>
+			<instruction>SY(BCNLAT21);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="13" RCID="24013" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4,3,4</attrib-code>
+			<attrib-code index="1">BCNSHP1</attrib-code>
+			<instruction>SY(BCNLAT22);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="14" RCID="24014" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3,4,3</attrib-code>
+			<attrib-code index="1">BCNSHP5</attrib-code>
+			<instruction>SY(BCNLAT15);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="15" RCID="24015" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4,3,4</attrib-code>
+			<attrib-code index="1">BCNSHP5</attrib-code>
+			<instruction>SY(BCNLAT16);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="16" RCID="24016" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3,4,3</attrib-code>
+			<instruction>SY(BCNLAT15);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="17" RCID="24017" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4,3,4</attrib-code>
+			<instruction>SY(BCNLAT16);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="18" RCID="24018" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3</attrib-code>
+			<attrib-code index="1">BCNSHP1</attrib-code>
+			<instruction>SY(BCNLAT21);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="19" RCID="24019" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4</attrib-code>
+			<attrib-code index="1">BCNSHP1</attrib-code>
+			<instruction>SY(BCNLAT22);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="20" RCID="24020" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3</attrib-code>
+			<attrib-code index="1">BCNSHP5</attrib-code>
+			<instruction>SY(BCNLAT15);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="21" RCID="24021" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4</attrib-code>
+			<attrib-code index="1">BCNSHP5</attrib-code>
+			<instruction>SY(BCNLAT16);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="22" RCID="24022" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3</attrib-code>
+			<instruction>SY(BCNLAT15);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="23" RCID="24023" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4</attrib-code>
+			<instruction>SY(BCNLAT16);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="24" RCID="24024" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">catlam5</attrib-code>
+			<instruction>SY(BCNLAT21);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="25" RCID="24025" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">catlam6</attrib-code>
+			<instruction>SY(BCNLAT22);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="26" RCID="24026" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">catlam9</attrib-code>
+			<instruction>SY(BCNLAT23);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="27" RCID="24027" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">catlam11</attrib-code>
+			<instruction>SY(BCNLAT21);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="28" RCID="24028" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">catlam12</attrib-code>
+			<instruction>SY(BCNLAT22);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="29" RCID="24029" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">catlam13</attrib-code>
+			<instruction>SY(BCNSPP21);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="30" RCID="24030" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">catlam14</attrib-code>
+			<instruction>SY(BCNSPP21);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="31" RCID="24031" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">catlam15</attrib-code>
+			<instruction>SY(BCNLAT21);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="32" RCID="24032" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">catlam16</attrib-code>
+			<instruction>SY(BCNLAT22);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="33" RCID="24033" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">catlam17</attrib-code>
+			<instruction>SY(BCNLAT21);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="34" RCID="24034" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">catlam18</attrib-code>
+			<instruction>SY(BCNLAT22);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="35" RCID="24035" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">catlam19</attrib-code>
+			<instruction>SY(BCNLAT21);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="36" RCID="24036" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">catlam20</attrib-code>
+			<instruction>SY(BCNLAT22);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="37" RCID="24037" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">catlam21</attrib-code>
+			<instruction>SY(BCNLAT21);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="38" RCID="24038" name="bcnlat">
+			<type>Point</type>
+			<attrib-code index="0">catlam22</attrib-code>
+			<instruction>SY(BCNLAT22);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17020</comment>
+		</lookup>
+		<lookup id="39" RCID="24039" name="BCNLAT">
+			<type>Point</type>
+			<instruction>SY(BCNDEF13);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="40" RCID="24040" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3,4,3</attrib-code>
+			<attrib-code index="1">BCNSHP1</attrib-code>
+			<instruction>SY(BCNLAT21);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="41" RCID="24041" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3,4,3</attrib-code>
+			<attrib-code index="1">BCNSHP2</attrib-code>
+			<instruction>SY(BCNLAT21);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="42" RCID="24042" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3,4,3</attrib-code>
+			<attrib-code index="1">BCNSHP7</attrib-code>
+			<instruction>SY(BCNLAT21);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="43" RCID="24043" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4,3,4</attrib-code>
+			<attrib-code index="1">BCNSHP1</attrib-code>
+			<instruction>SY(BCNLAT22);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="44" RCID="24044" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4,3,4</attrib-code>
+			<attrib-code index="1">BCNSHP2</attrib-code>
+			<instruction>SY(BCNLAT22);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="45" RCID="24045" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4,3,4</attrib-code>
+			<attrib-code index="1">BCNSHP7</attrib-code>
+			<instruction>SY(BCNLAT22);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="46" RCID="24046" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3,4,3</attrib-code>
+			<attrib-code index="1">BCNSHP3</attrib-code>
+			<instruction>SY(BCNLAT15);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="47" RCID="24047" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3,4,3</attrib-code>
+			<attrib-code index="1">BCNSHP4</attrib-code>
+			<instruction>SY(BCNLAT15);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="48" RCID="24048" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3,4,3</attrib-code>
+			<attrib-code index="1">BCNSHP5</attrib-code>
+			<instruction>SY(BCNLAT15);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="49" RCID="24049" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4,3,4</attrib-code>
+			<attrib-code index="1">BCNSHP3</attrib-code>
+			<instruction>SY(BCNLAT16);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="50" RCID="24050" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4,3,4</attrib-code>
+			<attrib-code index="1">BCNSHP4</attrib-code>
+			<instruction>SY(BCNLAT16);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="51" RCID="24051" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4,3,4</attrib-code>
+			<attrib-code index="1">BCNSHP5</attrib-code>
+			<instruction>SY(BCNLAT16);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="52" RCID="24052" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3,4,3</attrib-code>
+			<instruction>SY(BCNLAT15);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="53" RCID="24053" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4,3,4</attrib-code>
+			<instruction>SY(BCNLAT16);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="54" RCID="24054" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3</attrib-code>
+			<attrib-code index="1">BCNSHP1</attrib-code>
+			<instruction>SY(BCNLAT21);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="55" RCID="24055" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3</attrib-code>
+			<attrib-code index="1">BCNSHP2</attrib-code>
+			<instruction>SY(BCNLAT21);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="56" RCID="24056" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3</attrib-code>
+			<attrib-code index="1">BCNSHP7</attrib-code>
+			<instruction>SY(BCNLAT21);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="57" RCID="24057" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4</attrib-code>
+			<attrib-code index="1">BCNSHP1</attrib-code>
+			<instruction>SY(BCNLAT22);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="58" RCID="24058" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4</attrib-code>
+			<attrib-code index="1">BCNSHP2</attrib-code>
+			<instruction>SY(BCNLAT22);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="59" RCID="24059" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4</attrib-code>
+			<attrib-code index="1">BCNSHP7</attrib-code>
+			<instruction>SY(BCNLAT22);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="60" RCID="24060" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3</attrib-code>
+			<attrib-code index="1">BCNSHP3</attrib-code>
+			<instruction>SY(BCNLAT15);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="61" RCID="24061" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3</attrib-code>
+			<attrib-code index="1">BCNSHP4</attrib-code>
+			<instruction>SY(BCNLAT15);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="62" RCID="24062" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3</attrib-code>
+			<attrib-code index="1">BCNSHP5</attrib-code>
+			<instruction>SY(BCNLAT15);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="63" RCID="24063" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4</attrib-code>
+			<attrib-code index="1">BCNSHP3</attrib-code>
+			<instruction>SY(BCNLAT16);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="64" RCID="24064" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4</attrib-code>
+			<attrib-code index="1">BCNSHP4</attrib-code>
+			<instruction>SY(BCNLAT16);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="65" RCID="24065" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4</attrib-code>
+			<attrib-code index="1">BCNSHP5</attrib-code>
+			<instruction>SY(BCNLAT16);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="66" RCID="24066" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP6</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(CAIRNS11);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="67" RCID="24067" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">BCNSHP6</attrib-code>
+			<instruction>SY(CAIRNS01);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="68" RCID="24068" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR3</attrib-code>
+			<instruction>SY(BCNLAT15);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="69" RCID="24069" name="BCNLAT">
+			<type>Point</type>
+			<attrib-code index="0">COLOUR4</attrib-code>
+			<instruction>SY(BCNLAT16);TE('bn %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27020</comment>
+		</lookup>
+		<lookup id="70" RCID="24070" name="berths">
+			<type>Point</type>
+			<instruction>SY(BRTHNO01);TX(OBJNAM,3,1,2,'15110',1,0,CHBLK,29)</instruction>
+			<disp-prio>Line Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32440</comment>
+		</lookup>
+		<lookup id="71" RCID="24071" name="BOYCAR">
+			<type>Point</type>
+			<instruction>SY(BOYDEF03);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="72" RCID="24072" name="BOYCAR">
+			<type>Point</type>
+			<attrib-code index="0">CATCAM4</attrib-code>
+			<instruction>SY(BOYCAR04);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="73" RCID="24073" name="BOYCAR">
+			<type>Point</type>
+			<attrib-code index="0">CATCAM3</attrib-code>
+			<instruction>SY(BOYCAR03);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="74" RCID="24074" name="BOYCAR">
+			<type>Point</type>
+			<attrib-code index="0">CATCAM2</attrib-code>
+			<instruction>SY(BOYCAR02);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="75" RCID="24075" name="BOYCAR">
+			<type>Point</type>
+			<attrib-code index="0">CATCAM1</attrib-code>
+			<instruction>SY(BOYCAR01);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="76" RCID="24076" name="BOYISD">
+			<type>Point</type>
+			<instruction>SY(BOYISD12);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="77" RCID="24077" name="boylat">
+			<type>Point</type>
+			<instruction>SY(BOYDEF03);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="78" RCID="24078" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam1</attrib-code>
+			<attrib-code index="1">COLOUR3</attrib-code>
+			<instruction>SY(BOYLAT24);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="79" RCID="24079" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam1</attrib-code>
+			<attrib-code index="1">COLOUR4</attrib-code>
+			<instruction>SY(BOYLAT23);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="80" RCID="24080" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam2</attrib-code>
+			<attrib-code index="1">COLOUR3</attrib-code>
+			<instruction>SY(BOYLAT14);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="81" RCID="24081" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam2</attrib-code>
+			<attrib-code index="1">COLOUR4</attrib-code>
+			<instruction>SY(BOYLAT13);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="82" RCID="24082" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam3</attrib-code>
+			<attrib-code index="1">COLOUR3,4,3</attrib-code>
+			<instruction>SY(BOYLAT24);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="83" RCID="24083" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam3</attrib-code>
+			<attrib-code index="1">COLOUR4,3,4</attrib-code>
+			<instruction>SY(BOYLAT23);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="84" RCID="24084" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam4</attrib-code>
+			<attrib-code index="1">COLOUR3,4,3</attrib-code>
+			<instruction>SY(BOYLAT14);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="85" RCID="24085" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam4</attrib-code>
+			<attrib-code index="1">COLOUR4,3,4</attrib-code>
+			<instruction>SY(BOYLAT13);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="86" RCID="24086" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam7</attrib-code>
+			<attrib-code index="1">COLOUR3</attrib-code>
+			<instruction>SY(BOYLAT24);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="87" RCID="24087" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam8</attrib-code>
+			<attrib-code index="1">COLOUR4</attrib-code>
+			<instruction>SY(BOYLAT13);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="88" RCID="24088" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam10</attrib-code>
+			<attrib-code index="1">COLOUR3,4,3,4</attrib-code>
+			<instruction>SY(BOYLAT25);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="89" RCID="24089" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam10</attrib-code>
+			<attrib-code index="1">COLOUR4,3,4,3</attrib-code>
+			<instruction>SY(BOYLAT25);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="90" RCID="24090" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam10</attrib-code>
+			<attrib-code index="1">COLOUR3,4</attrib-code>
+			<instruction>SY(BOYLAT25);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="91" RCID="24091" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam10</attrib-code>
+			<attrib-code index="1">COLOUR4,3</attrib-code>
+			<instruction>SY(BOYLAT25);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="92" RCID="24092" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam15</attrib-code>
+			<attrib-code index="1">COLOUR1,3,1,3</attrib-code>
+			<instruction>SY(BOYLAT26);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="93" RCID="24093" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam15</attrib-code>
+			<attrib-code index="1">COLOUR3,1,3,1</attrib-code>
+			<instruction>SY(BOYLAT26);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="94" RCID="24094" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam16</attrib-code>
+			<attrib-code index="1">COLOUR1,4,1,4</attrib-code>
+			<instruction>SY(BOYLAT27);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="95" RCID="24095" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam16</attrib-code>
+			<attrib-code index="1">COLOUR4,1,4,1</attrib-code>
+			<instruction>SY(BOYLAT27);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="96" RCID="24096" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam17</attrib-code>
+			<attrib-code index="1">COLOUR3,4,3</attrib-code>
+			<instruction>SY(BOYLAT24);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="97" RCID="24097" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam17</attrib-code>
+			<attrib-code index="1">COLOUR4,3,4</attrib-code>
+			<instruction>SY(BOYLAT23);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="98" RCID="24098" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam18</attrib-code>
+			<attrib-code index="1">COLOUR3,4,3</attrib-code>
+			<instruction>SY(BOYLAT14);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="99" RCID="24099" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam18</attrib-code>
+			<attrib-code index="1">COLOUR4,3,4</attrib-code>
+			<instruction>SY(BOYLAT13);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="100" RCID="24100" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam19</attrib-code>
+			<attrib-code index="1">COLOUR3,4,3</attrib-code>
+			<instruction>SY(BOYLAT14);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="101" RCID="24101" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam19</attrib-code>
+			<attrib-code index="1">COLOUR4,3,4</attrib-code>
+			<instruction>SY(BOYLAT13);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="102" RCID="24102" name="boylat">
+			<type>Point</type>
+			<attrib-code index="0">catlam23</attrib-code>
+			<attrib-code index="1">COLOUR6</attrib-code>
+			<instruction>SY(BOYSPP25);TX(OBJNAM,2,1,2,'14106',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17010</comment>
+		</lookup>
+		<lookup id="103" RCID="24103" name="BOYLAT">
+			<type>Point</type>
+			<instruction>SY(BOYDEF03);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="104" RCID="24104" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP1</attrib-code>
+			<attrib-code index="1">COLOUR3,4,3</attrib-code>
+			<instruction>SY(BOYLAT14);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="105" RCID="24105" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP1</attrib-code>
+			<attrib-code index="1">COLOUR4,3,4</attrib-code>
+			<instruction>SY(BOYLAT13);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="106" RCID="24106" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP2</attrib-code>
+			<attrib-code index="1">COLOUR3,4,3</attrib-code>
+			<instruction>SY(BOYLAT24);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="107" RCID="24107" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP2</attrib-code>
+			<attrib-code index="1">COLOUR4,3,4</attrib-code>
+			<instruction>SY(BOYLAT23);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="108" RCID="24108" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">CATLAM3</attrib-code>
+			<attrib-code index="1">COLOUR3,4,3</attrib-code>
+			<instruction>SY(BOYLAT24);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="109" RCID="24109" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">CATLAM3</attrib-code>
+			<attrib-code index="1">COLOUR4,3,4</attrib-code>
+			<instruction>SY(BOYLAT23);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="110" RCID="24110" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">CATLAM4</attrib-code>
+			<attrib-code index="1">COLOUR3,4,3</attrib-code>
+			<instruction>SY(BOYLAT14);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="111" RCID="24111" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">CATLAM4</attrib-code>
+			<attrib-code index="1">COLOUR4,3,4</attrib-code>
+			<instruction>SY(BOYLAT13);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="112" RCID="24112" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP1</attrib-code>
+			<attrib-code index="1">COLOUR3</attrib-code>
+			<instruction>SY(BOYLAT14);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="113" RCID="24113" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP1</attrib-code>
+			<attrib-code index="1">COLOUR4</attrib-code>
+			<instruction>SY(BOYLAT13);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="114" RCID="24114" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP2</attrib-code>
+			<attrib-code index="1">COLOUR3</attrib-code>
+			<instruction>SY(BOYLAT24);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="115" RCID="24115" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP2</attrib-code>
+			<attrib-code index="1">COLOUR4</attrib-code>
+			<instruction>SY(BOYLAT23);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="116" RCID="24116" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">CATLAM1</attrib-code>
+			<attrib-code index="1">COLOUR3</attrib-code>
+			<instruction>SY(BOYLAT24);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="117" RCID="24117" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">CATLAM1</attrib-code>
+			<attrib-code index="1">COLOUR4</attrib-code>
+			<instruction>SY(BOYLAT23);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="118" RCID="24118" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">CATLAM2</attrib-code>
+			<attrib-code index="1">COLOUR3</attrib-code>
+			<instruction>SY(BOYLAT14);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="119" RCID="24119" name="BOYLAT">
+			<type>Point</type>
+			<attrib-code index="0">CATLAM2</attrib-code>
+			<attrib-code index="1">COLOUR4</attrib-code>
+			<instruction>SY(BOYLAT13);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="120" RCID="24120" name="BOYSAW">
+			<type>Point</type>
+			<instruction>SY(BOYSAW12);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="121" RCID="24121" name="BOYSPP">
+			<type>Point</type>
+			<instruction>SY(BOYSPP11);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="122" RCID="24122" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">CATSPM19</attrib-code>
+			<attrib-code index="1">BOYSHP1</attrib-code>
+			<instruction>SY(BOYSPP15);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="123" RCID="24123" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">CATSPM19</attrib-code>
+			<attrib-code index="1">BOYSHP2</attrib-code>
+			<instruction>SY(BOYSPP25);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="124" RCID="24124" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">CATSPM54</attrib-code>
+			<attrib-code index="1">BOYSHP1</attrib-code>
+			<instruction>SY(BOYSPP15);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="125" RCID="24125" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">CATSPM54</attrib-code>
+			<attrib-code index="1">BOYSHP2</attrib-code>
+			<instruction>SY(BOYSPP25);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="126" RCID="24126" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">CATSPM54</attrib-code>
+			<attrib-code index="1">BOYSHP4</attrib-code>
+			<instruction>SY(BOYSPP35);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="127" RCID="24127" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">CATSPM54</attrib-code>
+			<attrib-code index="1">BOYSHP5</attrib-code>
+			<instruction>SY(BOYSPP35);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="128" RCID="24128" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">CATSPM9</attrib-code>
+			<instruction>SY(BOYSUP02);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="129" RCID="24129" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">CATSPM15</attrib-code>
+			<instruction>SY(BOYSUP02);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="130" RCID="24130" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP1</attrib-code>
+			<instruction>SY(BOYSPP15);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="131" RCID="24131" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP2</attrib-code>
+			<instruction>SY(BOYSPP25);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="132" RCID="24132" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP3</attrib-code>
+			<instruction>SY(BOYSPP11);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="133" RCID="24133" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP4</attrib-code>
+			<instruction>SY(BOYSPP35);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="134" RCID="24134" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP5</attrib-code>
+			<instruction>SY(BOYSPP35);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="135" RCID="24135" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP6</attrib-code>
+			<instruction>SY(BOYSPP11);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="136" RCID="24136" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP7</attrib-code>
+			<instruction>SY(BOYSUP02);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="137" RCID="24137" name="BOYSPP">
+			<type>Point</type>
+			<attrib-code index="0">BOYSHP8</attrib-code>
+			<instruction>SY(BOYSPP35);TE('by %s','OBJNAM',2,1,2,'15110',-1,-1,CHBLK,21)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="138" RCID="24138" name="BUAARE">
+			<type>Point</type>
+			<instruction>SY(BUAARE02);TX(OBJNAM,3,2,2,'15110',1,0,CHBLK,26)</instruction>
+			<disp-prio>Area 2</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22240</comment>
+		</lookup>
+		<lookup id="139" RCID="24139" name="BUISGL">
+			<type>Point</type>
+			<instruction>SY(BUISGL01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="140" RCID="24140" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN33</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<attrib-code index="2">OBJNAM</attrib-code>
+			<instruction>SY(POSGEN03);TX(OBJNAM,3,2,2,'15110',1,0,CHBLK,26)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="141" RCID="24141" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN20</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="142" RCID="24142" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN21</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="143" RCID="24143" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN22</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL14)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="144" RCID="24144" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN23</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL14)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="145" RCID="24145" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN24</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL14)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="146" RCID="24146" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN25</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL14)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="147" RCID="24147" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN26</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL15)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="148" RCID="24148" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN27</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL15)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="149" RCID="24149" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN33</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(POSGEN03)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="150" RCID="24150" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN35</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(TNKCON12)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="151" RCID="24151" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN33</attrib-code>
+			<attrib-code index="1">OBJNAM</attrib-code>
+			<instruction>SY(POSGEN03);TX(OBJNAM,3,2,2,'15110',1,0,CHBLK,26)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="152" RCID="24152" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">CONVIS1</attrib-code>
+			<instruction>SY(BUISGL11)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="153" RCID="24153" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN2</attrib-code>
+			<instruction>SY(HRBFAC13)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="154" RCID="24154" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN3</attrib-code>
+			<instruction>SY(HRBFAC16)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="155" RCID="24155" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN4</attrib-code>
+			<instruction>SY(HRBFAC18)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="156" RCID="24156" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN5</attrib-code>
+			<instruction>SY(HRBFAC18)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="157" RCID="24157" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN10</attrib-code>
+			<instruction>SY(HRBFAC15)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="158" RCID="24158" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN11</attrib-code>
+			<instruction>SY(HRBFAC14)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="159" RCID="24159" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN20</attrib-code>
+			<instruction>SY(BUIREL01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="160" RCID="24160" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN21</attrib-code>
+			<instruction>SY(BUIREL01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="161" RCID="24161" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN22</attrib-code>
+			<instruction>SY(BUIREL04)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="162" RCID="24162" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN23</attrib-code>
+			<instruction>SY(BUIREL04)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="163" RCID="24163" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN24</attrib-code>
+			<instruction>SY(BUIREL04)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="164" RCID="24164" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN25</attrib-code>
+			<instruction>SY(BUIREL04)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="165" RCID="24165" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN26</attrib-code>
+			<instruction>SY(BUIREL05)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="166" RCID="24166" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN27</attrib-code>
+			<instruction>SY(BUIREL05)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="167" RCID="24167" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN33</attrib-code>
+			<instruction>SY(POSGEN03)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="168" RCID="24168" name="BUISGL">
+			<type>Point</type>
+			<attrib-code index="0">FUNCTN35</attrib-code>
+			<instruction>SY(TNKCON02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="169" RCID="24169" name="bunsta">
+			<type>Point</type>
+			<instruction>SY(CHINFO07)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="170" RCID="24170" name="bunsta">
+			<type>Point</type>
+			<attrib-code index="0">catbun1</attrib-code>
+			<instruction>SY(BUNSTA01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="171" RCID="24171" name="bunsta">
+			<type>Point</type>
+			<attrib-code index="0">catbun2</attrib-code>
+			<instruction>SY(BUNSTA02)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="172" RCID="24172" name="bunsta">
+			<type>Point</type>
+			<attrib-code index="0">catbun3</attrib-code>
+			<instruction>SY(BUNSTA03)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="173" RCID="24173" name="chkpnt">
+			<type>Point</type>
+			<instruction>SY(POSGEN04)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32410</comment>
+		</lookup>
+		<lookup id="174" RCID="24174" name="chkpnt">
+			<type>Point</type>
+			<attrib-code index="0">catchp1</attrib-code>
+			<instruction>SY(CUSTOM01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32410</comment>
+		</lookup>
+		<lookup id="175" RCID="24175" name="chkpnt">
+			<type>Point</type>
+			<attrib-code index="0">catchp2</attrib-code>
+			<instruction>SY(BORDER01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32410</comment>
+		</lookup>
+		<lookup id="176" RCID="24176" name="cranes">
+			<type>Point</type>
+			<instruction>SY(CRANES01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32440</comment>
+		</lookup>
+		<lookup id="177" RCID="24177" name="CRANES">
+			<type>Point</type>
+			<instruction>SY(CRANES01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32440</comment>
+		</lookup>
+		<lookup id="178" RCID="24178" name="CTNARE">
+			<type>Point</type>
+			<instruction>SY(CHINFO06)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>26050</comment>
+		</lookup>
+		<lookup id="179" RCID="24179" name="curent">
+			<type>Point</type>
+			<instruction>SY(POSGEN04)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>33060</comment>
+		</lookup>
+		<lookup id="180" RCID="24180" name="curent">
+			<type>Point</type>
+			<attrib-code index="0">ORIENT</attrib-code>
+			<instruction>SY(CURENT01,ORIENT)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>33060</comment>
+		</lookup>
+		<lookup id="181" RCID="24181" name="daymar">
+			<type>Point</type>
+			<instruction></instruction>
+			<disp-prio></disp-prio>
+			<radar-prio></radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat></display-cat>
+			<comment></comment>
+		</lookup>
+		<lookup id="182" RCID="24182" name="DAYMAR">
+			<type>Point</type>
+			<instruction></instruction>
+			<disp-prio></disp-prio>
+			<radar-prio></radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat></display-cat>
+			<comment></comment>
+		</lookup>
+		<lookup id="183" RCID="24183" name="dismar">
+			<type>Point</type>
+			<instruction>SY(DISMAR05);TX(wtwdis,3,1,2,'14106',1,-1,CHBLK,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32430</comment>
+		</lookup>
+		<lookup id="184" RCID="24184" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS3</attrib-code>
+			<attrib-code index="1">hunits3</attrib-code>
+			<instruction>SY(HECMTR02);TX(wtwdis,3,1,2,'14106',1,0,CHMGD,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="185" RCID="24185" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS3</attrib-code>
+			<attrib-code index="1">hunits4</attrib-code>
+			<instruction>SY(HECMTR01);TX(wtwdis,3,1,2,'14106',1,0,CHMGD,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="186" RCID="24186" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS1</attrib-code>
+			<attrib-code index="1">hunits3</attrib-code>
+			<instruction>SY(DISMAR05);TX(wtwdis,3,1,2,'14106',1,-1,CHBLK,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32420</comment>
+		</lookup>
+		<lookup id="187" RCID="24187" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS1</attrib-code>
+			<attrib-code index="1">hunits4</attrib-code>
+			<instruction>SY(DISMAR05)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32420</comment>
+		</lookup>
+		<lookup id="188" RCID="24188" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS1</attrib-code>
+			<attrib-code index="1">hunits5</attrib-code>
+			<instruction>SY(DISMAR05);TE('%.f sm','wtwdis',3,2,2,'14109',1,0,CHBLK,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="189" RCID="24189" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS1</attrib-code>
+			<attrib-code index="1">hunits6</attrib-code>
+			<instruction>SY(DISMAR05);TE('%.f nm','wtwdis',3,2,2,'14109',1,0,CHBLK,21)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="190" RCID="24190" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS2</attrib-code>
+			<attrib-code index="1">hunits3</attrib-code>
+			<instruction>SY(HECMTR02);TX(wtwdis,3,1,2,'14106',1,0,CHMGD,21)</instruction>
+			<disp-prio></disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="191" RCID="24191" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS2</attrib-code>
+			<attrib-code index="1">hunits4</attrib-code>
+			<instruction>SY(HECMTR01);TX(wtwdis,3,1,2,'14106',1,0,CHMGD,21)</instruction>
+			<disp-prio></disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="192" RCID="24192" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS4</attrib-code>
+			<attrib-code index="1">hunits3</attrib-code>
+			<instruction>SY(HECMTR02);TX(wtwdis,3,1,2,'14106',1,0,CHMGD,21)</instruction>
+			<disp-prio></disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="193" RCID="24193" name="dismar">
+			<type>Point</type>
+			<attrib-code index="0">CATDIS4</attrib-code>
+			<attrib-code index="1">hunits4</attrib-code>
+			<instruction>SY(HECMTR01);TX(wtwdis,3,1,2,'14106',1,0,CHMGD,21)</instruction>
+			<disp-prio></disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22430</comment>
+		</lookup>
+		<lookup id="194" RCID="24194" name="m_sdat">
+			<type>Point</type>
+			<instruction></instruction>
+			<disp-prio></disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat></display-cat>
+			<comment>  </comment>
+		</lookup>
+		<lookup id="195" RCID="24195" name="excnst">
+			<type>Point</type>
+			<instruction>SY(BRIDGE01)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12210</comment>
+		</lookup>
+		<lookup id="196" RCID="24196" name="FOGSIG">
+			<type>Point</type>
+			<instruction>SY(FOGSIG01)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27080</comment>
+		</lookup>
+		<lookup id="197" RCID="24197" name="hrbfac">
+			<type>Point</type>
+			<instruction>SY(HRBFAC10)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="198" RCID="24198" name="hrbfac">
+			<type>Point</type>
+			<attrib-code index="0">cathaf6</attrib-code>
+			<instruction>SY(HRBFAC11)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="199" RCID="24199" name="hrbfac">
+			<type>Point</type>
+			<attrib-code index="0">cathaf9</attrib-code>
+			<instruction>SY(HRBFAC12)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="200" RCID="24200" name="hrbfac">
+			<type>Point</type>
+			<attrib-code index="0">cathaf14</attrib-code>
+			<instruction>SY(HRBFAC15)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="201" RCID="24201" name="hrbfac">
+			<type>Point</type>
+			<attrib-code index="0">cathaf15</attrib-code>
+			<instruction>SY(HRBFAC16)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="202" RCID="24202" name="hrbfac">
+			<type>Point</type>
+			<attrib-code index="0">cathaf16</attrib-code>
+			<instruction>SY(HRBFAC17)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="203" RCID="24203" name="hrbfac">
+			<type>Point</type>
+			<attrib-code index="0">cathaf17</attrib-code>
+			<instruction>SY(HRBFAC18)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="204" RCID="24204" name="HRBFAC">
+			<type>Point</type>
+			<instruction>SY(CHINFO07)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32410</comment>
+		</lookup>
+		<lookup id="205" RCID="24205" name="HRBFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATHAF1</attrib-code>
+			<instruction>SY(ROLROL01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32410</comment>
+		</lookup>
+		<lookup id="206" RCID="24206" name="HRBFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATHAF4</attrib-code>
+			<instruction>SY(HRBFAC09)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32410</comment>
+		</lookup>
+		<lookup id="207" RCID="24207" name="HRBFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATHAF5</attrib-code>
+			<instruction>SY(SMCFAC02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32410</comment>
+		</lookup>
+		<lookup id="208" RCID="24208" name="HULKES">
+			<type>Point</type>
+			<instruction>SY(HULKES01)</instruction>
+			<disp-prio>Line Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="209" RCID="24209" name="LIGHTS">
+			<type>Point</type>
+			<instruction>CS(LIGHTSI1)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27070</comment>
+		</lookup>
+		<lookup id="210" RCID="24210" name="LNDARE">
+			<type>Point</type>
+			<instruction>SY(LNDARE01);TX(OBJNAM,1,2,2,'15110',0,1,CHBLK,26);CS(QUAPOS01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12010</comment>
+		</lookup>
+		<lookup id="211" RCID="24211" name="LNDMRK">
+			<type>Point</type>
+			<instruction>SY(POSGEN01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="212" RCID="24212" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK17</attrib-code>
+			<attrib-code index="1">FUNCTN33</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(TOWERS03);TX(OBJNAM,3,2,2,'15110',1,-1,CHBLK,26)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="213" RCID="24213" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK15</attrib-code>
+			<attrib-code index="1">FUNCTN20</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="214" RCID="24214" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK15</attrib-code>
+			<attrib-code index="1">FUNCTN21</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="215" RCID="24215" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK17</attrib-code>
+			<attrib-code index="1">FUNCTN20</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="216" RCID="24216" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK17</attrib-code>
+			<attrib-code index="1">FUNCTN21</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="217" RCID="24217" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK20</attrib-code>
+			<attrib-code index="1">FUNCTN20</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="218" RCID="24218" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK20</attrib-code>
+			<attrib-code index="1">FUNCTN21</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL13)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="219" RCID="24219" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK20</attrib-code>
+			<attrib-code index="1">FUNCTN26</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL15)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="220" RCID="24220" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK20</attrib-code>
+			<attrib-code index="1">FUNCTN27</attrib-code>
+			<attrib-code index="2">CONVIS1</attrib-code>
+			<instruction>SY(BUIREL15)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="221" RCID="24221" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK17</attrib-code>
+			<attrib-code index="1">FUNCTN33</attrib-code>
+			<instruction>SY(TOWERS01);TX(OBJNAM,3,2,2,'15110',1,-1,CHBLK,26)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="222" RCID="24222" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK1</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(CAIRNS11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="223" RCID="24223" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK3</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(CHIMNY11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="224" RCID="24224" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK4</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(DSHAER11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="225" RCID="24225" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK5</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(FLGSTF01)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="226" RCID="24226" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK6</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(FLASTK11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="227" RCID="24227" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK7</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(MSTCON14)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="228" RCID="24228" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK8</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(POSGEN03)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="229" RCID="24229" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK9</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(MONUMT12)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="230" RCID="24230" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK10</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(MONUMT12)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="231" RCID="24231" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK12</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(MONUMT12)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="232" RCID="24232" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK13</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(MONUMT12)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="233" RCID="24233" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK15</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(DOMES011)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="234" RCID="24234" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK16</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(RASCAN11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="235" RCID="24235" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK17</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(TOWERS03)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="236" RCID="24236" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK18</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(WNDMIL12)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="237" RCID="24237" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK19</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(WIMCON11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="238" RCID="24238" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK20</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(POSGEN03)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="239" RCID="24239" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK15</attrib-code>
+			<attrib-code index="1">FUNCTN20</attrib-code>
+			<instruction>SY(BUIREL01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="240" RCID="24240" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK17</attrib-code>
+			<attrib-code index="1">FUNCTN20</attrib-code>
+			<instruction>SY(BUIREL01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="241" RCID="24241" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK20</attrib-code>
+			<attrib-code index="1">FUNCTN20</attrib-code>
+			<instruction>SY(BUIREL01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="242" RCID="24242" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK3</attrib-code>
+			<instruction>SY(CHIMNY01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="243" RCID="24243" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK6</attrib-code>
+			<instruction>SY(FLASTK01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="244" RCID="24244" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK7</attrib-code>
+			<instruction>SY(MSTCON04)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="245" RCID="24245" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK15</attrib-code>
+			<instruction>SY(DOMES001)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="246" RCID="24246" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK16</attrib-code>
+			<instruction>SY(RASCAN01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="247" RCID="24247" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CATLMK17</attrib-code>
+			<instruction>SY(TOWERS01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="248" RCID="24248" name="LNDMRK">
+			<type>Point</type>
+			<attrib-code index="0">CONVIS1</attrib-code>
+			<instruction>SY(POSGEN03)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="249" RCID="24249" name="LNDRGN">
+			<type>Point</type>
+			<instruction>SY(POSGEN04);TX(OBJNAM,1,2,2,'15110',0,-1,CHBLK,26)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>21060</comment>
+		</lookup>
+		<lookup id="250" RCID="24250" name="MARCUL">
+			<type>Point</type>
+			<instruction>SY(MARCUL02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>26210</comment>
+		</lookup>
+		<lookup id="251" RCID="24251" name="MORFAC">
+			<type>Point</type>
+			<instruction>SY(MORFAC03)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="252" RCID="24252" name="MORFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATMOR1</attrib-code>
+			<instruction>SY(MORFAC03)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="253" RCID="24253" name="MORFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATMOR2</attrib-code>
+			<instruction>SY(MORFAC04)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="254" RCID="24254" name="MORFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATMOR3</attrib-code>
+			<instruction>SY(PILPNT02)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32440</comment>
+		</lookup>
+		<lookup id="255" RCID="24255" name="MORFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATMOR5</attrib-code>
+			<instruction>SY(PILPNT02)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="256" RCID="24256" name="MORFAC">
+			<type>Point</type>
+			<attrib-code index="0">CATMOR7</attrib-code>
+			<instruction>SY(BOYMOR11)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27010</comment>
+		</lookup>
+		<lookup id="257" RCID="24257" name="notmrk">
+			<type>Point</type>
+			<instruction>CS(NOTMRKI1)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="258" RCID="24258" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk1</attrib-code>
+			<instruction>SY(NMKPRH02,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="259" RCID="24259" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk12</attrib-code>
+			<instruction>SY(NMKPRH12,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="260" RCID="24260" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk13</attrib-code>
+			<instruction>SY(NMKPRH13,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="261" RCID="24261" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk44</attrib-code>
+			<instruction>SY(NMKRCD01,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="262" RCID="24262" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk45</attrib-code>
+			<instruction>SY(NMKRCD02,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="263" RCID="24263" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk46</attrib-code>
+			<instruction>SY(NMKRCD03,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="264" RCID="24264" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk47</attrib-code>
+			<instruction>SY(NMKRCD04,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="265" RCID="24265" name="notmrk">
+			<type>Point</type>
+			<attrib-code index="0">catnmk50</attrib-code>
+			<instruction>SY(NMKINF01,ORIENT)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>17030</comment>
+		</lookup>
+		<lookup id="266" RCID="24266" name="OBSTRN">
+			<type>Point</type>
+			<instruction>CS(OBSTRNI1)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="267" RCID="24267" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS7</attrib-code>
+			<attrib-code index="1">VALSOU</attrib-code>
+			<instruction>SY(FOULGND1)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34051</comment>
+		</lookup>
+		<lookup id="268" RCID="24268" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS8</attrib-code>
+			<attrib-code index="1">VALSOU</attrib-code>
+			<instruction>SY(FLTHAZ02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34051</comment>
+		</lookup>
+		<lookup id="269" RCID="24269" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS9</attrib-code>
+			<attrib-code index="1">VALSOU</attrib-code>
+			<instruction>SY(ACHARE02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34051</comment>
+		</lookup>
+		<lookup id="270" RCID="24270" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS10</attrib-code>
+			<attrib-code index="1">VALSOU</attrib-code>
+			<instruction>SY(FLTHAZ02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34051</comment>
+		</lookup>
+		<lookup id="271" RCID="24271" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS7</attrib-code>
+			<instruction>SY(FOULGND1)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="272" RCID="24272" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS8</attrib-code>
+			<instruction>SY(FLTHAZ02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="273" RCID="24273" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS9</attrib-code>
+			<instruction>SY(ACHARE02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="274" RCID="24274" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">CATOBS10</attrib-code>
+			<instruction>SY(FLTHAZ02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="275" RCID="24275" name="OBSTRN">
+			<type>Point</type>
+			<attrib-code index="0">WATLEV7</attrib-code>
+			<instruction>SY(FLTHAZ02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="276" RCID="24276" name="PILPNT">
+			<type>Point</type>
+			<instruction>SY(PILPNT02)</instruction>
+			<disp-prio>Line Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="277" RCID="24277" name="PIPSOL">
+			<type>Point</type>
+			<instruction>SY(POSGEN04)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34070</comment>
+		</lookup>
+		<lookup id="278" RCID="24278" name="PYLONS">
+			<type>Point</type>
+			<instruction>SY(POSGEN03)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12210</comment>
+		</lookup>
+		<lookup id="279" RCID="24279" name="RADSTA">
+			<type>Point</type>
+			<instruction>SY(POSGEN01)</instruction>
+			<disp-prio>Line Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>38010</comment>
+		</lookup>
+		<lookup id="280" RCID="24280" name="RADSTA">
+			<type>Point</type>
+			<attrib-code index="0">CATRAS2</attrib-code>
+			<instruction>SY(RDOSTA02);TE('ch %s','COMCHA',3,1,2,'15110',0,0,CHBLK,11)</instruction>
+			<disp-prio>Line Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>38010</comment>
+		</lookup>
+		<lookup id="281" RCID="24281" name="rdocal">
+			<type>Point</type>
+			<instruction>SY(RCLDEF01);TE('Nr %s','OBJNAM',3,2,2,'15110',1,-1,CHBLK,21)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>25060</comment>
+		</lookup>
+		<lookup id="282" RCID="24282" name="rdocal">
+			<type>Point</type>
+			<attrib-code index="0">TRAFIC1</attrib-code>
+			<attrib-code index="1">ORIENT</attrib-code>
+			<instruction>SY(RDOCAL02,ORIENT);TE('Nr %s','OBJNAM',3,1,2,'15110',1,-1,CHBLK,21);TE('ch %s','COMCHA',3,1,2,'15110',1,1,CHBLK,11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>25060</comment>
+		</lookup>
+		<lookup id="283" RCID="24283" name="rdocal">
+			<type>Point</type>
+			<attrib-code index="0">TRAFIC2</attrib-code>
+			<attrib-code index="1">ORIENT</attrib-code>
+			<instruction>SY(RDOCAL02,ORIENT);TE('Nr %s','OBJNAM',3,1,2,'15110',1,-1,CHBLK,21);TE('ch %s','COMCHA',3,1,2,'15110',1,1,CHBLK,11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>25060</comment>
+		</lookup>
+		<lookup id="284" RCID="24284" name="rdocal">
+			<type>Point</type>
+			<attrib-code index="0">TRAFIC3</attrib-code>
+			<attrib-code index="1">ORIENT</attrib-code>
+			<instruction>SY(RDOCAL02,ORIENT);TE('Nr %s','OBJNAM',3,1,2,'15110',1,-1,CHBLK,21);TE('ch %s','COMCHA',3,1,2,'15110',1,1,CHBLK,11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>25060</comment>
+		</lookup>
+		<lookup id="285" RCID="24285" name="rdocal">
+			<type>Point</type>
+			<attrib-code index="0">TRAFIC4</attrib-code>
+			<attrib-code index="1">ORIENT</attrib-code>
+			<instruction>SY(RDOCAL03,ORIENT);TE('Nr %s','OBJNAM',3,1,2,'15110',1,-1,CHBLK,21);TE('ch %s','COMCHA',3,1,2,'15110',1,1,CHBLK,11)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>25060</comment>
+		</lookup>
+		<lookup id="286" RCID="24286" name="refdmp">
+			<type>Point</type>
+			<instruction>SY(REFDMP01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="287" RCID="24287" name="RSCSTA">
+			<type>Point</type>
+			<instruction>SY(RSCSTA02)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>38030</comment>
+		</lookup>
+		<lookup id="288" RCID="24288" name="RSCSTA">
+			<type>Point</type>
+			<attrib-code index="0">catrsc10</attrib-code>
+			<instruction>SY(LIFEBUOY)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>38030</comment>
+		</lookup>
+		<lookup id="289" RCID="24289" name="RTPBCN">
+			<type>Point</type>
+			<instruction>SY(RTPBCN02)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>27210</comment>
+		</lookup>
+		<lookup id="290" RCID="24290" name="SEAARE">
+			<type>Point</type>
+			<instruction>TX(OBJNAM,1,2,3,'15110',0,0,CHBLK,26)</instruction>
+			<disp-prio>Area 2</disp-prio>
+			<radar-prio>Suppressed</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>21060</comment>
+		</lookup>
+		<lookup id="291" RCID="24291" name="SILTNK">
+			<type>Point</type>
+			<instruction>SY(TNKCON02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="292" RCID="24292" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL1</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(SILBUI11)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="293" RCID="24293" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL2</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(TNKCON12)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="294" RCID="24294" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL3</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(TOWERS03)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="295" RCID="24295" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL4</attrib-code>
+			<attrib-code index="1">CONVIS1</attrib-code>
+			<instruction>SY(TOWERS12)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="296" RCID="24296" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CONVIS1</attrib-code>
+			<instruction>SY(TNKCON12)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22220</comment>
+		</lookup>
+		<lookup id="297" RCID="24297" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL1</attrib-code>
+			<instruction>SY(SILBUI01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="298" RCID="24298" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL2</attrib-code>
+			<instruction>SY(TNKCON02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="299" RCID="24299" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL3</attrib-code>
+			<instruction>SY(TOWERS01)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="300" RCID="24300" name="SILTNK">
+			<type>Point</type>
+			<attrib-code index="0">CATSIL4</attrib-code>
+			<instruction>SY(TOWERS02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>32220</comment>
+		</lookup>
+		<lookup id="301" RCID="24301" name="sistat">
+			<type>Point</type>
+			<instruction>SY(SISTAT02)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="302" RCID="24302" name="sistat">
+			<type>Point</type>
+			<attrib-code index="0">catsit2</attrib-code>
+			<instruction>SY(SSENTR01)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="303" RCID="24303" name="sistat">
+			<type>Point</type>
+			<attrib-code index="0">catsit6</attrib-code>
+			<instruction>SY(SSLOCK01)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="304" RCID="24304" name="sistat">
+			<type>Point</type>
+			<attrib-code index="0">catsit10</attrib-code>
+			<instruction>SY(SSWARS01)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="305" RCID="24305" name="sistaw">
+			<type>Point</type>
+			<instruction>SY(SISTAT02)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="306" RCID="24306" name="sistaw">
+			<type>Point</type>
+			<attrib-code index="0">catsiw15</attrib-code>
+			<instruction>SY(HGWTMK01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="307" RCID="24307" name="sistaw">
+			<type>Point</type>
+			<attrib-code index="0">catsiw16</attrib-code>
+			<instruction>SY(VTCLMK01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="308" RCID="24308" name="sistaw">
+			<type>Point</type>
+			<attrib-code index="0">catsiw18</attrib-code>
+			<instruction>SY(WTLVGG02)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+		<lookup id="309" RCID="24309" name="SLCONS">
+			<type>Point</type>
+			<instruction>SY(MORFAC03);CS(SLCONSI1)</instruction>
+			<disp-prio>Hazards</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>DISPLAYBASE</display-cat>
+			<comment>12410</comment>
+		</lookup>
+		<lookup id="310" RCID="24310" name="SMCFAC">
+			<type>Point</type>
+			<instruction>SY(SMCFAC02)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>Suppressed</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>38210</comment>
+		</lookup>
+		<lookup id="311" RCID="24311" name="SOUNDG">
+			<type>Point</type>
+			<instruction>CS(SOUNDG02)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>33010</comment>
+		</lookup>
+		<lookup id="312" RCID="24312" name="termnl">
+			<type>Point</type>
+			<instruction>SY(TERMNL12)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="313" RCID="24313" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd1</attrib-code>
+			<instruction>SY(TERMNL03)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="314" RCID="24314" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd2</attrib-code>
+			<instruction>SY(TERMNL04)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="315" RCID="24315" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd3</attrib-code>
+			<instruction>SY(TERMNL05)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="316" RCID="24316" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd4</attrib-code>
+			<instruction>SY(TERMNL06)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="317" RCID="24317" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd5</attrib-code>
+			<instruction>SY(TERMNL07)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="318" RCID="24318" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd6</attrib-code>
+			<instruction>SY(TERMNL08)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="319" RCID="24319" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd7</attrib-code>
+			<instruction>SY(TERMNL09)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="320" RCID="24320" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd8</attrib-code>
+			<instruction>SY(TERMNL10)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="321" RCID="24321" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">trshgd9</attrib-code>
+			<instruction>SY(TERMNL11)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="322" RCID="24322" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">cathaf1</attrib-code>
+			<instruction>SY(TERMNL13)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="323" RCID="24323" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">cathaf3</attrib-code>
+			<instruction>SY(TERMNL02)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="324" RCID="24324" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">cathaf7</attrib-code>
+			<instruction>SY(TERMNL05)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="325" RCID="24325" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">cathaf8</attrib-code>
+			<instruction>SY(TERMNL01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="326" RCID="24326" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">cathaf10</attrib-code>
+			<instruction>SY(TERMNL03)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="327" RCID="24327" name="termnl">
+			<type>Point</type>
+			<attrib-code index="0">cathaf11</attrib-code>
+			<instruction>SY(TERMNL04)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22420</comment>
+		</lookup>
+		<lookup id="328" RCID="24328" name="TOPMAR">
+			<type>Point</type>
+			<instruction></instruction>
+			<disp-prio></disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat></display-cat>
+			<comment></comment>
+		</lookup>
+		<lookup id="329" RCID="24329" name="trnbsn">
+			<type>Point</type>
+			<instruction>SY(TRNBSN01)</instruction>
+			<disp-prio>Area Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>26020</comment>
+		</lookup>
+		<lookup id="330" RCID="24330" name="uwtroc">
+			<type>Point</type>
+			<instruction>CS(OBSTRNI1)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="331" RCID="24331" name="UWTROC">
+			<type>Point</type>
+			<instruction>CS(OBSTRNI1)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="332" RCID="24332" name="VEGATN">
+			<type>Point</type>
+			<instruction></instruction>
+			<disp-prio></disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat></display-cat>
+			<comment></comment>
+		</lookup>
+		<lookup id="333" RCID="24333" name="vehtrf">
+			<type>Point</type>
+			<instruction>SY(VEHTRF01)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>22410</comment>
+		</lookup>
+		<lookup id="334" RCID="24334" name="WRECKS">
+			<type>Point</type>
+			<instruction>CS(WRECKS04)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="335" RCID="24335" name="WRECKS">
+			<type>Point</type>
+			<attrib-code index="0">CATWRK3</attrib-code>
+			<attrib-code index="1">VALSOU</attrib-code>
+			<instruction>SY(FOULGND1)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34051</comment>
+		</lookup>
+		<lookup id="336" RCID="24336" name="WRECKS">
+			<type>Point</type>
+			<attrib-code index="0">CATWRK3</attrib-code>
+			<instruction>SY(FOULGND1)</instruction>
+			<disp-prio>Point Symbol</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>OTHER</display-cat>
+			<comment>34050</comment>
+		</lookup>
+		<lookup id="337" RCID="24337" name="wtwgag">
+			<type>Point</type>
+			<instruction>SY(WTLVGG02)</instruction>
+			<disp-prio>Routing</disp-prio>
+			<radar-prio>On Top</radar-prio>
+			<table-name>Simplified</table-name>
+			<display-cat>STANDARD</display-cat>
+			<comment>28020</comment>
+		</lookup>
+<!-- derived from pienc24s.dic end -->
