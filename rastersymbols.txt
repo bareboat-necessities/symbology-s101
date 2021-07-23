@@ -1,0 +1,87 @@
+BOYLAT25 (wrong symbol in svg_symbols_01)
+BOYINL01
+BOYINL02
+BOYINL03
+BOYINL08
+BUNSTA04 (missing symbol in svg_symbols_01)
+CATHAF01 (there is no ECDIS symbol named this way, see TERMNL13)
+CATHAF02 (there is no ECDIS symbol named this way, see TERMNL03)
+CATHAF03 (there is no ECDIS symbol named this way, see TERMNL04)
+DISMAR06 (obsolete, Presentation Library 2.1)
+LIFEBUOY01
+NMKIN101
+NMKIN102
+NMKINF06A
+NMKINF06B
+NMKINF34 (wrong symbol in sprite)
+NMKINF38 (wrong symbol in sprite)
+NMKINF45 (wrong symbol in sprite)
+NMKINF45 (wrong symbol in svg_symbols_01)
+NMKINF47 (wrong symbol in sprite)
+NMKINF47A
+NMKINF56
+NMKINF57
+NMKINF58
+NMKINF59
+NMKINF60
+NMKINFE24
+NMKINFE26
+NMKPR101
+NMKPR102
+NMKPR103
+NMKPR104
+NMKPR105
+NMKPRH02A
+NMKPRH01 (not in inlandECDIS)
+NMKPRH03
+NMKPRH06A
+NMKPRH07A
+NMKPRH08 (wrong symbol in svg_symbols_01)
+NMKPRH09
+NMKPRH18 (wrong symbol in sprite)
+NMKPRH19 (wrong symbol in svg_symbols_01)
+NMKPRHA20
+NMKRCD07
+NMKRCD08
+NMKRE101
+NMKRE102
+NMKRE103
+NMKREG15A
+NMKREG19 (wrong symbol in sprite)
+NMKREG20 (wrong symbol in sprite)
+NMKREG21
+NMKREG21A
+NMKREG22
+NMKREG22A
+NMKREG23
+NMKREG24
+NMKREG50
+NMKREG51
+NOTMRK04
+NOTMRK05
+NOTMRK06
+PIER0001 (Shoreline Construction, not in inlandECDIS)
+RADHLT01 (obsolete, Presentation Library 2.1)
+SSLOCK01 (wrong symbol in svg_symbols_01)
+TOPMA117 (wrong symbol in svg_symbols_01)
+TOPMAB3L
+TOPMAB3R
+VEHTRF01 (uncorrect named CARTRF01 in rastersymbols.xml)
+VTCLMK01 (missing symbol in svg_symbols_01)
+WTLVGG01 (obsolete, Presentation Library 2.1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
