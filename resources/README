@@ -1,9 +1,8 @@
 these files are copies of
 
-iho_ECDIS (2021-07-14)
-PresLib 4.0.0
-https://legacy.iho.int/iho_pubs/draft_pubs/PresLib_e4.0.0/Part_I/S-52_PresLib_e4.0.0_Part%20I_Redline.pdf
-https://github.com/alios/ecdis/blob/master/config/PresLib_e4.0.0.dai
+openCPN_ECDIS (2021-07-14)
+https://github.com/OpenCPN/OpenCPN/blob/master/data/s57data/chartsymbols.xml
+https://github.com/OpenCPN/OpenCPN/blob/master/data/s57data/rastersymbols-day.png
 
 inland_ECDIS (2021-07-14)
 PresLib 2.3
@@ -13,9 +12,18 @@ https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2
 PresLib 2.4
 https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LpJCsGXU3njb9uabz2e%2F-LzCSUdfk-8NNqmfJzvF%2F-LzCSsvNYZNXV0Q8OmCX%2FIES_PresLib_2_4.pdf?alt=media&token=9350b3e0-0ce7-4863-affb-b9011658d90c
 https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LpJCsGXU3njb9uabz2e%2F-LzCTCY3CcSHJeSX-tz_%2F-LzCTNUMjBhHGuGrmYsj%2FIES_2_4_LookupTables.zip?alt=media&token=4143b658-c443-4257-9142-fc0e7c687a7b
+PresLib 2.5
+https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LpJCsGXU3njb9uabz2e%2F-MCpYdPyyeTtxeESkJwo%2F-MCpYymuW2ugjQOauTEX%2FIES_PresLib_2_5.pdf?alt=media&token=39fd8eb3-324c-460b-8823-e9eb208a2ba4
 
-openCPN_ECDIS (2021-07-14)
-https://github.com/OpenCPN/OpenCPN/blob/master/data/s57data/chartsymbols.xml 2021-07-14
+IENC Harmonization Group (IEHG) Discussion Forum (2021-07-14)
+Misc Documents > IEHG_ARCHIVED_WEBSITE_UPLOADS > iehg_old_website_zip > svg_symbols.zip
+see https://ienc.openecdis.org for access
 
 you might find out more at
 https://wiki.opennauticalchart.org/index.php?title=Category:Data_Sources#ECDIS
+
+still to come:
+iho_ECDIS (2021-07-14)
+PresLib 4.0.0
+https://legacy.iho.int/iho_pubs/draft_pubs/PresLib_e4.0.0/Part_I/S-52_PresLib_e4.0.0_Part%20I_Redline.pdf
+https://github.com/alios/ecdis/blob/master/config/PresLib_e4.0.0.dai
