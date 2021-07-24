@@ -1,3 +1,4 @@
+ver. 2021-07-23
 BOYLAT25 (wrong symbol in svg_symbols_01)
 BOYINL01 (missing in rastersymbols-day.png and chartsymbols.xml)
 BOYINL02 (missing in rastersymbols-day.png and chartsymbols.xml)
