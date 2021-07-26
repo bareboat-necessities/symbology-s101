@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 4.5230739 4.5230739"
+   version="1.1"
+   xml:space="preserve"
+   id="svg25"
+   sodipodi:docname="BOYLAT25.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   width="4.5mm"
+   height="4.5mm"
+   style="fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round"><metadata
+   id="metadata29"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1237"
+   inkscape:window-height="504"
+   id="namedview27"
+   showgrid="false"
+   inkscape:zoom="11.313709"
+   inkscape:cx="1.8468191"
+   inkscape:cy="7.2797134"
+   inkscape:window-x="3856"
+   inkscape:window-y="584"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg25"
+   units="mm" />
+<defs
+   id="defs5">
+<clipPath
+   id="clipId0">
+<path
+   d="M 0,768 H 1024 V 0 H 0 Z"
+   id="path2"
+   inkscape:connector-curvature="0" />
+</clipPath>
+
+
+
+</defs>
+<g
+   clip-path="url(#clipId0)"
+   id="g17"
+   style="fill:#ff3939;stroke:#ff3939;stroke-width:0.25"
+   transform="matrix(0.03768024,0,0,0.03768024,-6.9186683,-17.6806)">
+<polygon
+   points="235.144,469.962 230.343,470.853 225.631,472.133 221.039,473.793 216.597,475.821 212.336,478.205 208.283,480.928 204.465,483.972 200.909,487.318 197.636,490.942 194.671,494.821 192.031,498.928 189.734,503.238 187.797,507.72 186.231,512.345 185.048,517.082 184.255,521.9 183.857,526.766 183.857,531.649 184.255,536.516 185.048,541.334 186.231,546.071 187.797,550.696 189.734,555.178 192.031,559.487 194.671,563.595 197.636,567.474 200.909,571.098 204.465,574.444 208.283,577.488 212.336,580.211 216.597,582.595 221.039,584.623 225.631,586.283 230.343,587.563 235.144,588.454 240.001,588.951 244.883,589.051 249.757,588.752 254.59,588.057 259.351,586.971 264.007,585.5 268.527,583.654 272.882,581.446 277.043,578.891 280.982,576.005 284.672,572.807 288.089,569.319 291.211,565.565 294.016,561.568 296.486,557.356 298.605,552.957 300.358,548.4 301.733,543.715 302.722,538.933 303.319,534.087 303.518,529.208 303.319,524.329 302.722,519.483 301.733,514.701 300.358,510.016 298.605,505.459 296.486,501.06 294.016,496.848 291.211,492.851 288.089,489.096 284.672,485.609 280.982,482.411 277.043,479.525 272.882,476.969 268.527,474.761 264.007,472.916 259.351,471.445 254.59,470.358 249.757,469.664 244.883,469.365 240.001,469.464 "
+   id="polygon15" />
+</g><circle
+   style="fill:none;stroke:#000000;stroke-width:0.00942006"
+   id="circle21"
+   r="2.2553663"
+   cy="2.2600889"
+   cx="2.2625766" /><g
+   clip-path="url(#clipId0)"
+   id="g7"
+   style="fill:none;stroke:#000000;stroke-width:0.1"
+   transform="matrix(1.0025344,0,0,1.0025344,0.00883075,-752.91017)" />
+<g
+   clip-path="url(#clipId0)"
+   id="g13"
+   style="fill:#49ff49;fill-opacity:1;stroke:#000000;stroke-width:0.25"
+   transform="matrix(0.03768024,0,0,0.03768024,-6.9186683,-17.6806)">
+<polygon
+   points="296.464,501.019 190.86,501.019 188.735,505.424 186.977,509.987 185.597,514.679 184.605,519.468 184.007,524.321 183.807,529.208 303.518,529.208 303.318,524.321 302.72,519.468 301.728,514.679 300.348,509.987 298.589,505.424 "
+   id="polygon9"
+   style="fill:#49ff49;fill-opacity:1" />
+<polygon
+   points="277.452,578.614 281.291,575.756 284.89,572.601 288.225,569.168 291.275,565.48 294.021,561.56 296.445,557.433 190.88,557.433 193.304,561.56 196.049,565.48 199.1,569.168 202.435,572.601 206.033,575.756 209.873,578.614 213.928,581.155 218.173,583.365 222.582,585.228 227.125,586.733 231.774,587.871 236.499,588.633 241.269,589.015 246.055,589.015 250.826,588.633 255.551,587.871 260.2,586.733 264.743,585.228 269.151,583.365 273.397,581.155 "
+   id="polygon11"
+   style="fill:#49ff49;fill-opacity:1" />
+</g>
+
+<circle
+   style="fill:none;stroke:#000000;stroke-width:0.00942006"
+   id="circle19"
+   r="2.2553663"
+   cy="2.2600889"
+   cx="2.2625766" />
+</svg>
