@@ -9,4 +9,4 @@ this is dedicated to inlandECDIS: openCPN's sprite (rastersymbols-day.png) and l
 * 'outline-vector' (names and bounding-boxes)
 * 'symbols-vector' (annotations and svg-symbols)
 
-`chartsymbols.txt` list some issues comparing resources/openCPN_ECDIS/chartsymbols-release.xml <> openCPN-ECDIS/resources/inland_ECDIS/ > lookup-tables
+`chartsymbols.txt` list some issues comparing resources/openCPN_ECDIS/chartsymbols-main.xml <> openCPN-ECDIS/resources/inland_ECDIS/ > lookup-tables
