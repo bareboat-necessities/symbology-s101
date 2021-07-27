@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="1.70mm" height="5.52mm" viewBox="-0.61 -5.53 1.72 5.54" xmlns="http://www.w3.org/2000/svg">
+  <title>TOPMA117</title>
+  <desc>buoy top mark, red-green sphere</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+      <iho:Description iho:publisher="IEHG" iho:creationDate="2015-07-29" iho:source="" iho:format="IENC signs, Europe, SVG" iho:version="0.1" />
+    </iho:S100SVG>
+  </metadata>
+  <g>
+    <ellipse cx="0.25" cy="-4.67" rx="0.85" ry="0.85" style="fill:#FF3939;fill-opacity:1;stroke:#FF3939;stroke-width:0.04" />
+    <polygon style="fill:#49FF49;fill-opacity:1;stroke:#49FF49;stroke-width:0.04" points="0.98,-4.24 -0.48,-5.10 -0.52,-5.03 -0.55,-4.95 -0.58,-4.87 -0.59,-4.79 -0.60,-4.71 -0.60,-4.62 -0.59,-4.54 -0.58,-4.46 -0.55,-4.38 -0.52,-4.31 -0.48,-4.23 -0.44,-4.17 -0.38,-4.10 -0.33,-4.04 -0.26,-3.99 -0.20,-3.94 -0.12,-3.90 -0.05,-3.87 0.03,-3.85 0.11,-3.83 0.19,-3.82 0.28,-3.82 0.36,-3.83 0.44,-3.84 0.52,-3.86 0.60,-3.89 0.67,-3.93 0.74,-3.97 0.80,-4.02 0.86,-4.08 0.92,-4.14 0.97,-4.21 0.98,-4.24 " />
+    <polyline style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.04" points="0.00,-3.60 0.05,-3.84 " />
+    <ellipse cx="0.25" cy="-4.67" rx="0.85" ry="0.85" style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.04" />
+  </g>
+</svg>

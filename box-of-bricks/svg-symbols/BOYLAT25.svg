@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="4.50mm" height="4.50mm" viewBox="-2.26 -2.26 4.52 4.52" xmlns="http://www.w3.org/2000/svg">
+  <title>BOYLAT25</title>
+  <desc>river buoy, fairway separation – simplified</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+      <iho:Description iho:publisher="IEHG" iho:creationDate="2015-07-29" iho:source="" iho:format="IENC signs, Europe, SVG" iho:version="0.1" />
+    </iho:S100SVG>
+  </metadata>
+  <g>
+    <ellipse cx="0.00" cy="0.00" rx="2.25" ry="2.25" style="fill:#FF3838;fill-opacity:1;stroke:#000000;stroke-width:0.04" />
+    <polygon style="fill:#49FF49;fill-opacity:1;stroke:#49FF49;stroke-width:0.04" points="-2.25,0.00 2.25,0.00 2.25,-0.13 2.23,-0.27 2.21,-0.40 2.19,-0.53 2.15,-0.66 2.11,-0.79 2.06,-0.91 2.00,-1.03 1.98,-1.06 -1.98,-1.06 -2.04,-0.94 -2.10,-0.82 -2.14,-0.69 -2.18,-0.56 -2.21,-0.43 -2.23,-0.30 -2.24,-0.16 -2.25,-0.03 -2.25,0.00 " />
+    <polygon style="fill:#49FF49;fill-opacity:1;stroke:#49FF49;stroke-width:0.04" points="-1.98,1.06 -1.92,1.18 -1.84,1.29 -1.76,1.40 -1.68,1.50 -1.58,1.60 -1.49,1.69 -1.38,1.77 -1.28,1.85 -1.16,1.93 -1.05,1.99 -0.93,2.05 -0.80,2.10 -0.67,2.15 -0.55,2.18 -0.41,2.21 -0.28,2.23 -0.15,2.25 -0.01,2.25 0.12,2.25 0.25,2.24 0.39,2.22 0.52,2.19 0.65,2.15 0.77,2.11 0.90,2.06 1.02,2.01 1.14,1.94 1.25,1.87 1.36,1.79 1.47,1.71 1.56,1.62 1.66,1.52 1.75,1.42 1.83,1.31 1.90,1.20 1.97,1.09 1.98,1.06 -1.98,1.06 " />
+    <ellipse cx="0.00" cy="0.00" rx="2.25" ry="2.25" style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.04" />
+  </g>
+</svg>
