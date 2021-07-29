@@ -10,3 +10,5 @@ this is dedicated to inlandECDIS: openCPN's sprite (rastersymbols-day.png) and l
 * 'symbols-vector' (annotations and svg-symbols)
 
 `chartsymbols.txt` list some issues comparing resources/openCPN_ECDIS/chartsymbols-main.xml <> openCPN-ECDIS/resources/inland_ECDIS/ > lookup-tables
+
+`S-101` focuses on IHO's superseding standard
