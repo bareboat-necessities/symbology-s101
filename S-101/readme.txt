@@ -1,4 +1,4 @@
-ver. 2021-07-29
+ver. 2021-08-02
 
 draft: rastersymbols-ihoECDIS.svg (daySvgStyle.css applied) 
 inkscape layers:
