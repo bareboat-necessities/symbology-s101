@@ -17,7 +17,7 @@ see https://github.com/Dirk--/openCPN-ECDIS/tree/main/S-101/resources
 see https://github.com/iho-ohi/S-101_Portrayal-Catalogue/issues
 
 - Issues S-401 Symbols: --------------------------------------------
-class="fLTGRN" is not defined in S401 Style sheet.css
+class="fLTGRN" is not defined in S401_Style_sheet.css
 see
 BCNLAT23
 BOYINL02
