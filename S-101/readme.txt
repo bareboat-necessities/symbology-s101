@@ -1,4 +1,4 @@
-ver. 2021-08-02
+ver. 2021-08-03
 
 draft: rastersymbols-ihoECDIS.svg (daySvgStyle.css applied) 
 inkscape layers:
@@ -11,6 +11,6 @@ inkscape layers:
 - svg-symbols
 
 resources:
-Portrayal Register http://registry.iho.int/portrayal/list.do (incl. inlandECDIS)
-Portrayal Catalogue https://github.com/iho-ohi/S-101_Portrayal-Catalogue (w/o inlandECDIS)
-svg-symbols of openCPN-ECDIS/resources/IEHG_Forum/
+see https://github.com/Dirk--/openCPN-ECDIS/tree/main/S-101/resources
+
+
