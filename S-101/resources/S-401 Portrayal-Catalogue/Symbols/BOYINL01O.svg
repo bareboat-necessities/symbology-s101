@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="6.14mm" height="8.76mm" viewBox="-3.09 -5.18 6.16 8.78" xmlns="http://www.w3.org/2000/svg">
+  <title>BOYINL01O</title>
+  <desc>river buoy right-hand side of the fairway (1.B of CEVNI) - on position</desc>
+  <metadata />
+  <g>
+    <path class="fORRED sBLACK" style="stroke-width:0.12" d="M -2.05,0.00 L -2.05,-0.65 L -1.33,-1.00 L -1.33,-2.30 L 1.33,-2.30 L 1.33,-1.00 L 2.05,-0.65 L 2.05,0.00 L -2.05,0.00 Z" />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M -3.08,-0.79 L -0.01,-5.17 L 3.06,-0.79 L -0.01,3.59 L -3.08,-0.79 " />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M -2.83,-0.79 L -0.01,-4.82 L 2.82,-0.79 L -0.01,3.24 L -2.83,-0.79 " />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>

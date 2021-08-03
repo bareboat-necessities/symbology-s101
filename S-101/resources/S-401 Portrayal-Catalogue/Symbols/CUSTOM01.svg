@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="3.00mm" height="3.00mm" viewBox="-1.51 -1.51 3.02 3.02" xmlns="http://www.w3.org/2000/svg">
+  <title>CUSTOM01</title>
+  <desc>control point, custom</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+      <iho:Description iho:publisher="IEHG" iho:creationDate="2015-07-11" iho:source="" iho:format="IENC signs, Europe, SVG" iho:version="0.1" />
+    </iho:S100SVG>
+  </metadata>
+  <g>
+    <circle cx="0.00" cy="0.00" r="1.50" class="fWHITE sMIDRD" style="stroke-width:0.12" />
+    <path class="fMIDRD sMIDRD" style="stroke-width:0" d="M -0.98,0.28 L 0.98,0.28 L 0.98,-0.28 L -0.98,-0.28 L -0.98,0.28 Z" />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="6.14mm" height="8.76mm" viewBox="-2.94 -5.34 6.16 8.78" xmlns="http://www.w3.org/2000/svg">
+  <title>BOYINL08O</title>
+  <desc>river buoy yellow float (8.C of CEVNI) - on position</desc>
+  <metadata />
+  <g>
+    <path class="fYLLOW sBLACK" style="stroke-width:0.12" d="M -2.05,0.00 L 2.05,0.00 L 2.05,-0.67 L 1.52,-0.67 L 2.05,-2.10 L -1.05,-2.10 L -1.58,-0.68 L -2.05,-0.68 L -2.05,0.00 Z" />
+    <path class="f0 sBLACK" style="stroke-width:0.28" d="M -2.93,-0.95 L 0.14,-5.33 L 3.21,-0.95 L 0.14,3.43 L -2.93,-0.95 " />
+    <path class="f0 sBLACK" style="stroke-width:0.28" d="M -2.69,-0.95 L 0.14,-4.98 L 2.96,-0.95 L 0.14,3.09 L -2.69,-0.95 " />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>

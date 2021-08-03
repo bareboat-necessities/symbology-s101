@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="4.10mm" height="2.10mm" viewBox="-2.06 -2.11 4.12 2.12" xmlns="http://www.w3.org/2000/svg">
+  <title>BOYINL08</title>
+  <desc>river buoy yellow float (8.C of CEVNI)</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+      <iho:Description iho:publisher="IEHG" iho:creationDate="2015-07-29" iho:source="" iho:format="IENC signs, Europe, SVG" iho:version="0.1" />
+    </iho:S100SVG>
+  </metadata>
+  <g>
+    <path class="fYLLOW sBLACK" style="stroke-width:0.12" d="M -2.05,0.00 L 2.05,0.00 L 2.05,-0.67 L 1.52,-0.67 L 2.05,-2.10 L -1.05,-2.10 L -1.58,-0.68 L -2.05,-0.68 L -2.05,0.00 Z" />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>
