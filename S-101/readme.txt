@@ -5,7 +5,7 @@ inkscape layers:
 - bounding-boxes and pivots
 - svg-symbols
 
-draft: rastersymbols-inlandECDIS.svg 
+draft: rastersymbols-inlandECDIS.svg (S401 Style sheet.css applied) 
 inkscape layers:
 - bounding-boxes and pivots
 - svg-symbols
