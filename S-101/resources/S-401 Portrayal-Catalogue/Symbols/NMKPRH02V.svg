@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="6.14mm" height="8.76mm" viewBox="-3.06 -4.42 6.16 8.78" xmlns="http://www.w3.org/2000/svg">
+  <title>NMKPRH02V</title>
+  <desc>no entry (A.1) - virtual</desc>
+  <metadata />
+  <g>
+    <path class="fMIDRD sMIDRD" style="stroke-width:0.04" d="M -1.85,1.25 L 1.85,1.25 L 1.85,0.42 L -1.85,0.42 L -1.85,1.25 Z" />
+    <path class="fWHITE sWHITE" style="stroke-width:0.04" d="M -1.85,0.42 L 1.85,0.42 L 1.85,-0.42 L -1.85,-0.42 L -1.85,0.42 Z" />
+    <path class="fMIDRD sMIDRD" style="stroke-width:0.04" d="M -1.85,-0.42 L 1.85,-0.42 L 1.85,-1.25 L -1.85,-1.25 L -1.85,-0.42 Z" />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M -1.99,1.48 L -3.05,-0.03 L -2.04,-1.48 " />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M 1.12,2.77 L 0.02,4.35 L -1.03,2.85 " />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M -1.14,-2.76 L 0.02,-4.41 L 1.16,-2.77 " />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M 2.11,-1.42 L 3.09,-0.03 L 1.96,1.58 " />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M -0.98,-2.64 L 0.02,-4.06 L 1.00,-2.66 " />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M -1.83,1.37 L -2.81,-0.03 L -1.87,-1.36 " />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M 1.95,-1.31 L 2.84,-0.03 L 1.80,1.46 " />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M 0.96,2.66 L 0.02,4.00 L -0.87,2.74 " />
+    <path class="f0 sBLACK" style="stroke-width:0.12" d="M -1.85,1.25 L -1.85,-1.25 L 1.85,-1.25 L 1.85,1.25 L -1.85,1.25 " />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>

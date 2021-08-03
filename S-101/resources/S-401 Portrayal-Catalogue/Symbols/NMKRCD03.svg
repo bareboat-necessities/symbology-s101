@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="3.50mm" height="3.50mm" viewBox="-1.76 -1.76 3.52 3.52" xmlns="http://www.w3.org/2000/svg">
+  <title>NMKRCD03</title>
+  <desc>you are recommended to keep on right side (D.2)</desc>
+  <metadata />
+  <g>
+    <path class="fWHITE sWHITE" style="stroke-width:0.04" d="M 0.00,-1.75 L 1.75,0.00 L 0.00,1.75 L -1.75,0.00 L 0.00,-1.75 Z" />
+    <path class="fDRKGN sDRKGN" style="stroke-width:0.12" d="M 0.00,1.75 L 1.75,0.00 L 0.00,-1.75 L 0.00,1.75 Z" />
+    <path class="f0 sBLACK" style="stroke-width:0.12" d="M -1.75,0.00 L 0.00,-1.75 L 1.75,0.00 L 0.00,1.75 L -1.75,0.00 Z" />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>

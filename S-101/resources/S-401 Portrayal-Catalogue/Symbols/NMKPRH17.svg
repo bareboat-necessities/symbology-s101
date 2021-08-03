@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="7.00mm" height="7.00mm" viewBox="-3.51 -3.51 7.02 7.02" xmlns="http://www.w3.org/2000/svg">
+  <title>NMKPRH17</title>
+  <desc>sailing vessels prohibited (A.15)</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+      <iho:Description iho:publisher="IEHG" iho:creationDate="2015-07-29" iho:source="" iho:format="IENC signs, Europe, SVG" iho:version="0.1" />
+    </iho:S100SVG>
+  </metadata>
+  <g>
+    <path class="fMIDRD sBLACK" style="stroke-width:0.12" d="M -3.50,3.50 L -3.50,-3.50 L 3.50,-3.50 L 3.50,3.50 L -3.50,3.50 Z" />
+    <path class="fWHITE sWHITE" style="stroke-width:0.04" d="M 2.51,1.82 L 2.51,-2.52 L -1.78,-2.52 L 2.51,1.82 Z" />
+    <path class="fWHITE sWHITE" style="stroke-width:0.04" d="M -2.54,-1.81 L -2.54,2.54 L 1.82,2.54 L -2.54,-1.81 Z" />
+    <path class="fBLACK sBLACK" style="stroke-width:0.04" d="M 0.38,1.03 L -1.67,1.03 L 0.37,-2.08 L 0.38,1.03 Z" />
+    <path class="fBLACK sBLACK" style="stroke-width:0.04" d="M -1.98,1.22 L 2.15,1.22 L 0.92,2.00 L -1.11,2.00 L -1.94,1.40 L -1.98,1.22 Z" />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>

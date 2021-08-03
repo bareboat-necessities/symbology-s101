@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="7.00mm" height="7.00mm" viewBox="-3.51 -3.51 7.02 7.02" xmlns="http://www.w3.org/2000/svg">
+  <title>NMKREG06A</title>
+  <desc>Do not exceed the speed indicated (in km/h)</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+      <iho:Description iho:publisher="IEHG" iho:creationDate="2015-07-29" iho:source="" iho:format="IENC signs, Europe, SVG" iho:version="0.1" />
+    </iho:S100SVG>
+  </metadata>
+  <g>
+    <path class="fMIDRD sBLACK" style="stroke-width:0.12" d="M -3.50,-3.50 L 3.50,-3.50 L 3.50,3.50 L -3.50,3.50 L -3.50,-3.50 Z" />
+    <path class="fWHITE sWHITE" style="stroke-width:0.04" d="M -2.58,-2.59 L 2.46,-2.59 L 2.46,2.45 L -2.58,2.45 L -2.58,-2.59 Z" />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>

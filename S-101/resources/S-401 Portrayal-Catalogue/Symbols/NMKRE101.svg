@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="7.00mm" height="7.00mm" viewBox="-3.51 -3.51 7.02 7.02" xmlns="http://www.w3.org/2000/svg">
+  <title>NMKRE101</title>
+  <desc>Attention! (keep caution) (2.1)</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+      <iho:Description iho:publisher="IEHG" iho:creationDate="2015-07-29" iho:source="" iho:format="IENC signs, Russia, SVG" iho:version="0.1" />
+    </iho:S100SVG>
+  </metadata>
+  <g>
+    <path class="fMIDRD sBLACK" style="stroke-width:0.12" d="M -3.50,3.50 L -3.50,-3.50 L 3.50,-3.50 L 3.50,3.50 L -3.50,3.50 Z" />
+    <path class="fWHITE sBLACK" style="stroke-width:0.12" d="M -2.89,-2.89 L 2.89,-2.89 L 2.89,2.89 L -2.89,2.89 L -2.89,-2.89 Z" />
+    <path class="fBLACK sBLACK" style="stroke-width:0.12" d="M 0.35,2.09 L -0.37,2.09 L -0.37,1.33 L 0.35,1.33 L 0.35,2.09 Z" />
+    <path class="fBLACK sBLACK" style="stroke-width:0.12" d="M 0.37,-0.05 L 0.37,-2.04 L -0.39,-2.04 L -0.39,-0.06 L -0.19,0.84 L 0.18,0.84 L 0.37,-0.05 Z" />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>
