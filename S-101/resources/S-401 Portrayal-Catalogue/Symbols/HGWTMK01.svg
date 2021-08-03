@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="3.79mm" height="6.30mm" viewBox="-1.91 -5.88 3.81 6.32" xmlns="http://www.w3.org/2000/svg">
+  <title>HGWTMK01</title>
+  <desc>high water mark</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+      <iho:Description iho:publisher="IEHG" iho:creationDate="2015-07-15" iho:source="" iho:format="IENC signs, Europe, SVG" iho:version="0.1" />
+    </iho:S100SVG>
+  </metadata>
+  <g>
+    <path class="fWHITE sBLACK" style="stroke-width:0.12" d="M -1.90,-5.87 L 1.90,-5.87 L 1.90,-2.31 L -1.90,-2.31 L -1.90,-5.87 Z" />
+    <path class="f0 sBLACK" style="stroke-width:0.12" d="M 0.00,-2.31 L 0.00,-0.30 " />
+    <path class="f0 sBLACK" style="stroke-width:0.12" d="M -0.83,0.00 L -0.30,0.00 " />
+    <circle cx="0.00" cy="0.00" r="0.30" class="fWHITE sBLACK" style="stroke-width:0.12" />
+    <path class="fBLACK sBLACK" style="stroke-width:0.04" d="M 1.07,-4.54 L 0.94,-4.54 L 0.59,-4.54 L 0.51,-4.54 L 0.45,-4.54 L 0.18,-4.54 L 0.18,-4.39 L 1.33,-4.39 L 1.33,-4.54 L 1.07,-4.54 Z" />
+    <path class="fBLACK sBLACK" style="stroke-width:0.04" d="M 1.07,-5.33 L 0.94,-5.33 L 0.59,-5.33 L 0.51,-5.33 L 0.45,-5.33 L 0.18,-5.33 L 0.18,-5.18 L 1.33,-5.18 L 1.33,-5.33 L 1.07,-5.33 Z" />
+    <path class="fBLACK sBLACK" style="stroke-width:0.04" d="M 0.45,-5.18 L 0.45,-4.54 L 0.51,-4.54 L 0.59,-4.54 L 0.59,-5.18 L 0.45,-5.18 Z" />
+    <path class="fBLACK sBLACK" style="stroke-width:0.04" d="M 0.94,-5.18 L 0.94,-4.54 L 1.07,-4.54 L 1.07,-5.18 L 0.94,-5.18 Z" />
+    <path class="fBLACK sBLACK" style="stroke-width:0.04" d="M -0.85,-4.62 L -0.19,-5.33 L -1.52,-5.33 L -0.85,-4.62 Z" />
+    <path class="fBLACK sBLACK" style="stroke-width:0.04" d="M -1.52,-4.39 L -0.23,-4.39 L -0.23,-4.54 L -1.52,-4.54 L -1.52,-4.39 Z" />
+    <path class="fBLACK sBLACK" style="stroke-width:0.04" d="M 0.71,-3.66 L 0.71,-3.01 L 0.77,-3.01 L 0.85,-3.01 L 0.85,-3.66 L 0.71,-3.66 Z" />
+    <path class="fBLACK sBLACK" style="stroke-width:0.04" d="M -0.85,-3.09 L -0.19,-3.81 L -1.52,-3.81 L -0.85,-3.09 Z" />
+    <path class="fBLACK sBLACK" style="stroke-width:0.04" d="M -1.52,-2.86 L -0.23,-2.86 L -0.23,-3.01 L -1.52,-3.01 L -1.52,-2.86 Z" />
+    <path class="fBLACK sBLACK" style="stroke-width:0.04" d="M 0.94,-3.81 L 0.59,-3.81 L 0.51,-3.81 L 0.49,-3.81 L 0.49,-3.66 L 1.04,-3.66 L 1.04,-3.81 L 0.94,-3.81 Z" />
+    <path class="fBLACK sBLACK" style="stroke-width:0.04" d="M 0.95,-3.01 L 0.59,-3.01 L 0.52,-3.01 L 0.50,-3.01 L 0.50,-2.86 L 1.04,-2.86 L 1.04,-3.01 L 0.95,-3.01 Z" />
+    <path class="f0 sBLACK" style="stroke-width:0.12" d="M 0.00,0.30 L 0.00,0.43 " />
+    <path class="f0 sBLACK" style="stroke-width:0.12" d="M 0.30,0.00 L 0.83,0.00 " />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>

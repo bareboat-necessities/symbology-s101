@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="3.40mm" height="3.40mm" viewBox="-1.71 -1.71 3.42 3.42" xmlns="http://www.w3.org/2000/svg">
+  <title>HRBFAC18</title>
+  <desc>harbour facility quarantine station</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+      <iho:Description iho:publisher="IEHG" iho:creationDate="2015-07-29" iho:source="" iho:format="IENC signs, Europe, SVG" iho:version="0.1" />
+    </iho:S100SVG>
+  </metadata>
+  <g>
+    <circle cx="0.00" cy="0.00" r="1.70" class="fLITGY sBLACK" style="stroke-width:0.08" />
+    <path class="fMIDRD sMIDRD" style="stroke-width:0.04" d="M -0.28,-1.17 L 0.26,-1.17 L 0.26,1.18 L -0.28,1.18 L -0.28,-1.17 Z" />
+    <path class="fMIDRD sMIDRD" style="stroke-width:0.04" d="M 1.17,0.29 L -1.17,0.29 L -1.17,-0.29 L 1.17,-0.29 L 1.17,0.29 Z" />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>
