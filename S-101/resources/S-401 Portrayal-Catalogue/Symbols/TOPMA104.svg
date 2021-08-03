@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="2.30mm" height="6.50mm" viewBox="-1.16 -6.51 2.32 6.52" xmlns="http://www.w3.org/2000/svg">
+  <title>TOPMA104</title>
+  <desc>beacon top mark, red boarded cone, point down, green boarded cone, point up, simplified</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+      <iho:Description iho:publisher="IEHG" iho:creationDate="2015-07-29" iho:source="" iho:format="IENC signs, Europe, SVG" iho:version="0.1" />
+    </iho:S100SVG>
+  </metadata>
+  <g>
+    <path class="fMIDRD sBLACK" style="stroke-width:0.12" d="M 1.15,-6.50 L -1.15,-6.50 L 0.00,-4.50 L 1.15,-6.50 Z" />
+    <path class="fLTGRN sBLACK" style="stroke-width:0.12" d="M -1.15,-2.50 L 1.15,-2.50 L 0.00,-4.50 L -1.15,-2.50 Z" />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>

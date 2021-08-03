@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="2.90mm" height="5.75mm" viewBox="-1.46 -5.36 2.92 5.77" xmlns="http://www.w3.org/2000/svg">
+  <title>SSWARS01</title>
+  <desc>signal station, Wahrschau</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+      <iho:Description iho:publisher="IEHG" iho:creationDate="2015-07-26" iho:source="" iho:format="IENC signs, Europe, SVG" iho:version="0.1" />
+    </iho:S100SVG>
+  </metadata>
+  <g>
+    <path class="f0 sBLACK" style="stroke-width:0.12" d="M 0.00,-2.45 L 0.00,-0.24 " />
+    <path class="f0 sBLACK" style="stroke-width:0.12" d="M -0.90,0.00 L -0.24,0.00 " />
+    <path class="f0 sBLACK" style="stroke-width:0.12" d="M 0.24,0.00 L 0.93,0.00 " />
+    <path class="f0 sBLACK" style="stroke-width:0.12" d="M 0.00,0.24 L 0.00,0.39 " />
+    <path class="fWHITE sBLACK" style="stroke-width:0.12" d="M -1.45,-5.35 L 1.45,-5.35 L 1.45,-2.45 L -1.45,-2.45 L -1.45,-5.35 Z" />
+    <circle cx="0.00" cy="0.00" r="0.24" class="fWHITE sBLACK" style="stroke-width:0.12" />
+    <path class="f0 sBLACK" style="stroke-width:0.12" d="M 0.00,-4.94 L 1.01,-3.00 L -1.01,-3.00 L 0.00,-4.94 Z" />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>

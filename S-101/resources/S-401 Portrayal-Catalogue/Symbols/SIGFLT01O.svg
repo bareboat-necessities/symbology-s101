@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="7.98mm" height="11.39mm" viewBox="-3.96 -6.95 8.00 11.41" xmlns="http://www.w3.org/2000/svg">
+  <title>SIGFLT01O</title>
+  <desc>signal float - on position</desc>
+  <metadata />
+  <g>
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M -3.95,-1.24 L 0.04,-6.94 L 4.03,-1.24 L 0.04,4.45 L -3.95,-1.24 Z" />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M -3.70,-1.24 L 0.04,-6.59 L 3.79,-1.24 L 0.04,4.10 L -3.70,-1.24 Z" />
+    <path class="fYLLOW sBLACK" style="stroke-width:0.12" d="M -3.15,-1.42 L 3.15,-1.42 L 1.99,0.00 L -1.99,0.00 L -3.15,-1.42 Z" />
+    <path class="f0 sBLACK" style="stroke-width:0.12" d="M 0.00,-3.19 L 0.00,-1.42 " />
+    <path class="f0 sBLACK" style="stroke-width:0.12" d="M -2.61,0.00 L -0.31,0.00 " />
+    <path class="f0 sBLACK" style="stroke-width:0.12" d="M 0.31,0.00 L 2.61,0.00 " />
+    <circle cx="0.00" cy="0.00" r="0.31" class="fWHITE sBLACK" style="stroke-width:0.12" />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>

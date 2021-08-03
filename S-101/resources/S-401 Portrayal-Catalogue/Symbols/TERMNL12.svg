@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="5.20mm" height="5.20mm" viewBox="-2.61 -2.61 5.22 5.22" xmlns="http://www.w3.org/2000/svg">
+  <title>TERMNL12</title>
+  <desc>terminal, General Cargo trans-shipment</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+      <iho:Description iho:publisher="IEHG" iho:creationDate="2015-07-29" iho:source="" iho:format="IENC signs, Europe, SVG" iho:version="0.1" />
+    </iho:S100SVG>
+  </metadata>
+  <g>
+    <circle cx="0.00" cy="0.00" r="2.60" class="fLITGY sBLACK" style="stroke-width:0.08" />
+    <path class="f0 sBLACK" style="stroke-width:0.08" d="M -0.12,1.53 L -0.12,0.48 L 1.27,0.48 L 1.27,1.54 " />
+    <path class="f0 sBLACK" style="stroke-width:0.08" d="M -0.12,1.53 L 1.02,0.48 " />
+    <path class="f0 sBLACK" style="stroke-width:0.08" d="M 1.27,1.54 L 0.12,0.48 " />
+    <path class="f0 sBLACK" style="stroke-width:0.08" d="M 0.12,0.48 L 0.12,-0.87 L 0.56,-1.43 L 1.00,-0.87 L 1.02,0.48 " />
+    <path class="f0 sBLACK" style="stroke-width:0.08" d="M 0.12,0.48 L 1.00,-0.87 " />
+    <path class="f0 sBLACK" style="stroke-width:0.08" d="M 0.12,-0.87 L 1.02,0.48 " />
+    <path class="f0 sBLACK" style="stroke-width:0.08" d="M 0.12,-0.87 L 1.00,-0.87 " />
+    <path class="f0 sBLACK" style="stroke-width:0.08" d="M 0.56,-1.43 L -1.46,-1.43 " />
+    <path class="f0 sBLACK" style="stroke-width:0.08" d="M -1.25,-1.43 L -1.25,0.39 " />
+    <path class="f0 sBLACK" style="stroke-width:0.08" d="M -1.25,-1.43 L 0.12,-0.21 " />
+    <path class="f0 sBLACK" style="stroke-width:0.08" d="M -1.25,0.39 L -1.36,0.42 L -1.45,0.48 L -1.48,0.57 L -1.50,0.65 L -1.47,0.73 L -1.40,0.80 L -1.32,0.85 L -1.19,0.84 L -1.08,0.80 L -1.03,0.73 " />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>

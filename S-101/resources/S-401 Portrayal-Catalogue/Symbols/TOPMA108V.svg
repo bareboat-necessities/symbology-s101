@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='S401Style.css'?>
+<svg version="1.2" baseProfile="tiny" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="6.14mm" height="8.76mm" viewBox="-3.08 -8.26 6.16 8.78" xmlns="http://www.w3.org/2000/svg">
+  <title>TOPMA108V</title>
+  <desc>beacon top mark, white-green square board, diagonal - virtual</desc>
+  <metadata />
+  <g>
+    <path class="fWHITE sWHITE" style="stroke-width:0.04" d="M 0.00,-5.40 L 1.50,-3.90 L 0.00,-2.40 L -1.50,-3.90 L 0.00,-5.40 Z" />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M -2.16,-2.58 L -3.07,-3.87 L -2.16,-5.17 " />
+    <path class="f0 sBLACK" style="stroke-width:0.08" d="M -0.76,-0.57 L -1.34,-1.41 " />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M 1.14,-1.12 L 0.00,0.51 L -1.34,-1.41 " />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M -1.25,-6.46 L 0.00,-8.25 L 1.27,-6.44 " />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M 2.13,-5.21 L 3.07,-3.87 L 2.00,-2.34 " />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M -1.09,-6.35 L 0.00,-7.90 L 1.10,-6.33 " />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M -2.00,-2.69 L -2.83,-3.87 L -2.00,-5.05 " />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M 1.97,-5.09 L 2.83,-3.87 L 1.84,-2.46 " />
+    <path class="f0 sBLACK" style="stroke-width:0.24" d="M 0.98,-1.23 L 0.00,0.16 L -1.18,-1.52 " />
+    <path class="fLITGN sLITGN" style="stroke-width:0.04" d="M -1.50,-3.90 L 0.00,-5.40 L 1.50,-3.90 L -1.50,-3.90 Z" />
+    <path class="f0 sBLACK" style="stroke-width:0.12" d="M 0.00,-2.40 L -1.50,-3.90 L 0.00,-5.40 L 1.50,-3.90 L 0.00,-2.40 Z" />
+    <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
+  </g>
+</svg>
