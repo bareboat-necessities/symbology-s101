@@ -39,6 +39,7 @@ guess, class="fMIDGN" should be set here ...
 
 BUNSTA04 size mismatch compared to BUNSTA01, BUNSTA02, BUNSTA03
 
+BOYINL03O shows outline rectangle, viewBox size mismatch
 
 
 
