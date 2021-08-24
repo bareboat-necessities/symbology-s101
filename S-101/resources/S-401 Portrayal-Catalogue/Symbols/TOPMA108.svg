@@ -10,7 +10,7 @@
   </metadata>
   <g>
     <path class="fWHITE sWHITE" style="stroke-width:0.04" d="M 0.00,-5.40 L 1.50,-3.90 L 0.00,-2.40 L -1.50,-3.90 L 0.00,-5.40 Z" />
-    <path class="fLTGRN sLTGRN" style="stroke-width:0.04" d="M -1.50,-3.90 L 0.00,-5.40 L 1.50,-3.90 L -1.50,-3.90 Z" />
+    <path class="fLITGN sLITGN" style="stroke-width:0.04" d="M -1.50,-3.90 L 0.00,-5.40 L 1.50,-3.90 L -1.50,-3.90 Z" />
     <path class="f0 sBLACK" style="stroke-width:0.12" d="M 0.00,-2.40 L -1.50,-3.90 L 0.00,-5.40 L 1.50,-3.90 L 0.00,-2.40 Z" />
     <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
   </g>

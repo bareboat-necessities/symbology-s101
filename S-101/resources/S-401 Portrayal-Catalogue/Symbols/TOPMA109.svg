@@ -9,7 +9,7 @@
     </iho:S100SVG>
   </metadata>
   <g>
-    <path class="fLTGRN sBLACK" style="stroke-width:0.12" d="M -1.51,-3.90 L 0.00,-5.40 L 1.49,-3.90 L 0.00,-2.40 L -1.51,-3.90 Z" />
+    <path class="fLITGN sBLACK" style="stroke-width:0.12" d="M -1.51,-3.90 L 0.00,-5.40 L 1.49,-3.90 L 0.00,-2.40 L -1.51,-3.90 Z" />
     <path class="fWHITE sWHITE" style="stroke-width:0.04" d="M 0.00,-3.18 L 0.72,-3.89 L 0.00,-4.62 L -0.72,-3.91 L 0.00,-3.18 Z" />
     <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.2" />
   </g>
